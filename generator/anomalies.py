@@ -8,20 +8,15 @@ def inject_anomalies(
     claims, policies, incidents, documents,
     settlements, policy_coverages
 ):
-    """Inject six required negative scenarios and record ground truth."""
-
     ground_truth = []
-
     policy_lookup = {
         policy["policy_id"]: policy
         for policy in policies
     }
-
     incident_lookup = {
         incident["claim_id"]: incident
         for incident in incidents
     }
-
     selected_claims = claims[:6]
 
     if len(selected_claims) < 6:

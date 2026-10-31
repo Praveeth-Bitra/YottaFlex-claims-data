@@ -34,7 +34,6 @@ INCIDENT_TYPES = {
 
 
 def generate_incidents(claims, policies, rng):
-    """Generate one incident for every claim."""
 
     incidents = []
 
@@ -54,14 +53,12 @@ def generate_incidents(claims, policies, rng):
             policy["expiration_date"]
         )
 
-        # Cancellation limits the valid coverage period.
         if policy["cancellation_date"]:
             cancellation_date = date.fromisoformat(
                 policy["cancellation_date"]
             )
             policy_end = min(policy_end, cancellation_date)
 
-        # Generate an incident date within the policy period.
         latest_date = min(policy_end, REFERENCE_DATE)
 
         if latest_date < policy_start:

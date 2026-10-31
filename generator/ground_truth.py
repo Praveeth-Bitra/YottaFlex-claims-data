@@ -1,10 +1,4 @@
 def generate_ground_truth(anomaly_records):
-    """
-    Prepare the separate ground-truth dataset.
-
-    Ground truth stores expected anomaly labels and decisions.
-    It must not be included in the normal input dataset.
-    """
 
     ground_truth = []
 

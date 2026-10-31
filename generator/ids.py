@@ -1,16 +1,12 @@
-
-# Store counters for each entity type.
 _id_counters = {}
 
 
 def reset_id_counters():
-    """Reset all ID counters."""
     global _id_counters
     _id_counters = {}
 
 
 def next_id(entity_name):
-    """Generate a unique six-digit ID."""
 
     prefixes = {
         "customer": "CUST",

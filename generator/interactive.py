@@ -15,7 +15,6 @@ from generator.settlements import generate_settlements
 
 
 def get_user_input(prompt):
-    """Read non-empty input from the user."""
     while True:
         value = input(prompt).strip()
 
@@ -26,7 +25,6 @@ def get_user_input(prompt):
 
 
 def get_positive_amount():
-    """Read a valid positive claim amount."""
     while True:
         try:
             amount = float(input("Enter claimed amount: "))
@@ -41,7 +39,6 @@ def get_positive_amount():
 
 
 def get_incident_date():
-    """Read an incident date."""
     while True:
         value = input("Enter incident date (YYYY-MM-DD): ").strip()
 
@@ -59,7 +56,6 @@ def get_incident_date():
 
 
 def select_incident_type(claim_type):
-    """Allow the user to select an incident type."""
     options = INCIDENT_TYPES[claim_type]
 
     print("\nSelect incident type:")
@@ -81,7 +77,6 @@ def select_incident_type(claim_type):
 
 
 def ask_yes_no(prompt):
-    """Accept only Y or N."""
     while True:
         answer = input(prompt).strip().upper()
 
@@ -92,7 +87,6 @@ def ask_yes_no(prompt):
 
 
 def submit_claim(data):
-    """Collect and process a new insurance claim."""
 
     print("\n========== NEW CLAIM ==========")
 
@@ -134,10 +128,9 @@ def submit_claim(data):
 
     if document_available:
         document_verified = ask_yes_no(
-            "Has this document been verified? (Y/N): "
+            "Has this document been verified? (Y/N).lower(): "
         )
 
-    # Create the claim.
     claim = {
         "claim_id": generate_claim_id(),
         "policy_id": policy_id,
@@ -148,7 +141,6 @@ def submit_claim(data):
         "status": "Submitted",
     }
 
-    # Create the incident.
     incident = {
         "incident_id": next_id("incident"),
         "claim_id": claim["claim_id"],
@@ -158,7 +150,6 @@ def submit_claim(data):
         "location": "User Submitted",
     }
 
-    # Create document metadata when the document is available.
     claim_documents = []
 
     if document_available:
@@ -176,7 +167,6 @@ def submit_claim(data):
 
         claim_documents.append(document)
 
-    # Run the existing assessment logic.
     assessment = assess_claims(
         [claim],
         [policy],
@@ -184,8 +174,6 @@ def submit_claim(data):
         claim_documents,
         data["policy_coverages"],
     )[0]
-
-    # Calculate settlement only when eligible.
     settlements = generate_settlements(
         [claim],
         [assessment],
@@ -193,7 +181,6 @@ def submit_claim(data):
         data["policy_coverages"],
     )
 
-    # Display the result.
     print("\n========== CLAIM RESULT ==========")
 
     print("Claim ID:", claim["claim_id"])

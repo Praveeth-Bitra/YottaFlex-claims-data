@@ -11,7 +11,6 @@ def assess_claims(
     documents,
     policy_coverages
 ):
-    """Assess claims using policy, coverage and document information."""
 
     assessments = []
 
@@ -59,7 +58,6 @@ def assess_claims(
             if available_coverages else None
         )
 
-        # Find documents for this claim.
         claim_documents = [
             document for document in documents
             if document["claim_id"] == claim["claim_id"]
@@ -74,7 +72,7 @@ def assess_claims(
         )
 
         decision = "Approved"
-        reason = "All basic validation checks passed."
+        reason = "All checks passed."
         approved_amount = claim["claimed_amount"]
 
         # 1. Check policy validity.

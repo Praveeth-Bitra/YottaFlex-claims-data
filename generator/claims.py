@@ -14,11 +14,9 @@ CLAIM_AMOUNT_RANGES = {
 
 
 def generate_claims(policies, rng, count=CLAIM_COUNT):
-    """Generate claims linked to valid policies and customers."""
 
     claims = []
 
-    # Group policies by product type.
     policies_by_type = {}
 
     for policy in policies:

@@ -9,7 +9,6 @@ def generate_claim_events(
     assessments,
     settlements
 ):
-    """Create a chronological history of claim activities."""
 
     events = []
 
@@ -82,7 +81,6 @@ def generate_claim_events(
                 ("Settlement Recommended", settlement["settlement_date"])
             )
 
-        # Sort events by date before assigning sequence numbers.
         claim_events.sort(key=lambda event: event[1])
 
         for sequence, (event_type, event_date) in enumerate(

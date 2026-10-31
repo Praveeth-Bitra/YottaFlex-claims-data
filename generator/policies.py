@@ -24,17 +24,14 @@ DEDUCTIBLE_OPTIONS = [250, 500, 1000, 2500]
 
 
 def generate_policies(customers, rng, count=POLICY_COUNT):
-    """Generate policies linked to valid customer IDs."""
 
     policies = []
 
-    # Build the product type list using the required distribution.
     product_types = []
 
     for product_type, product_count in PRODUCT_COUNTS.items():
         product_types.extend([product_type] * product_count)
 
-    # Allow smaller or larger dataset sizes.
     if count != len(product_types):
         product_types = [
             rng.choice(PRODUCT_TYPES) for _ in range(count)
@@ -47,14 +44,12 @@ def generate_policies(customers, rng, count=POLICY_COUNT):
 
         customer = customers[index % len(customers)]
 
-        # Generate policy dates.
         effective_date = REFERENCE_DATE - timedelta(
             days=rng.randint(0, 1000)
         )
 
         expiration_date = effective_date + timedelta(days=365)
 
-        # Most policies are active or expired.
         status = (
             "Active"
             if REFERENCE_DATE <= expiration_date
@@ -63,7 +58,6 @@ def generate_policies(customers, rng, count=POLICY_COUNT):
 
         cancellation_date = None
 
-        # A small number of policies are cancelled.
         if rng.random() < 0.05:
             status = "Cancelled"
 

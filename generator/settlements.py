@@ -4,8 +4,6 @@ from generator.ids import generate_settlement_id
 
 
 def generate_settlements(claims, assessments, policies, policy_coverages):
-    """Generate settlement records for approved claims."""
-
     settlements = []
 
     policy_lookup = {
@@ -19,7 +17,6 @@ def generate_settlements(claims, assessments, policies, policy_coverages):
             if item["claim_id"] == claim["claim_id"]
         )
 
-        # Only approved and partially approved claims can be settled.
         if assessment["decision"] not in [
             "Approved",
             "Partially Approved"
@@ -36,8 +33,6 @@ def generate_settlements(claims, assessments, policies, policy_coverages):
         if not applicable_coverages:
             continue
 
-        # Use the same first linked coverage selected by the basic
-        # assessment implementation.
         coverage = applicable_coverages[0]
 
         approved_amount = assessment["approved_amount"]
@@ -47,7 +42,6 @@ def generate_settlements(claims, assessments, policies, policy_coverages):
             max(0, approved_amount - deductible), 2
         )
 
-        # Never allow settlement to exceed the coverage limit.
         payout_amount = min(
             payout_amount,
             coverage["coverage_limit"]

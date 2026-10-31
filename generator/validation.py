@@ -4,13 +4,11 @@ from collections import Counter
 
 
 def check_primary_keys(records, key):
-    """Check that primary key values are unique."""
     values = [record[key] for record in records]
     return len(values) == len(set(values))
 
 
 def check_foreign_keys(child_records, child_key, parent_records, parent_key):
-    """Check that every foreign key refers to an existing parent."""
     parent_values = {record[parent_key] for record in parent_records}
 
     return all(
@@ -20,7 +18,6 @@ def check_foreign_keys(child_records, child_key, parent_records, parent_key):
 
 
 def check_claim_item_totals(claims, claim_items):
-    """Check that item amounts add up to the claim amount."""
     totals = {}
 
     for item in claim_items:
@@ -35,7 +32,6 @@ def check_claim_item_totals(claims, claim_items):
 
 
 def check_policy_dates(policies):
-    """Check that policy expiration follows its start date."""
     for policy in policies:
         start = date.fromisoformat(policy["effective_date"])
         end = date.fromisoformat(policy["expiration_date"])
@@ -55,7 +51,6 @@ def check_policy_dates(policies):
 
 
 def check_incident_before_policy_start(data):
-    """Verify the intentional incident date anomaly."""
     policies = {p["policy_id"]: p for p in data["policies"]}
     claims = {c["claim_id"]: c for c in data["claims"]}
 
@@ -76,7 +71,6 @@ def check_incident_before_policy_start(data):
 
 
 def check_policy_cancelled_before_incident(data):
-    """Verify that a policy was cancelled before an incident."""
     policies = {p["policy_id"]: p for p in data["policies"]}
     claims = {c["claim_id"]: c for c in data["claims"]}
 
@@ -98,7 +92,6 @@ def check_policy_cancelled_before_incident(data):
 
 
 def check_duplicate_incidents(incidents):
-    """Check whether multiple incidents exist for the same claim."""
     counts = Counter(
         incident["claim_id"] for incident in incidents
     )
@@ -107,7 +100,6 @@ def check_duplicate_incidents(incidents):
 
 
 def check_missing_documents(claims, documents):
-    """Check whether at least one claim has no documents."""
     documented_claims = {
         document["claim_id"] for document in documents
     }
@@ -120,7 +112,6 @@ def check_missing_documents(claims, documents):
 
 
 def check_settlement_exceeds_limit(settlements, policy_coverages, claims):
-    """Check whether any settlement exceeds its linked coverage limit."""
 
     claim_policy_lookup = {
         claim["claim_id"]: claim["policy_id"]
@@ -153,7 +144,6 @@ def check_settlement_exceeds_limit(settlements, policy_coverages, claims):
 
 
 def check_duplicate_payments(settlements):
-    """Check whether a claim has multiple paid settlements."""
     paid_claims = [
         settlement["claim_id"]
         for settlement in settlements
@@ -166,10 +156,8 @@ def check_duplicate_payments(settlements):
 
 
 def run_validation(data):
-    """Run data-quality checks and intentional anomaly checks."""
     results = {}
 
-    # Standard data-quality checks
     results["customer_primary_keys"] = check_primary_keys(
         data["customers"], "customer_id"
     )

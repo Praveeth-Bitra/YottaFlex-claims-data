@@ -36,7 +36,6 @@ ITEM_DESCRIPTIONS = {
 
 
 def generate_claim_items(claims, rng):
-    """Generate 1-4 items for each claim."""
 
     claim_items = []
 
@@ -45,14 +44,12 @@ def generate_claim_items(claims, rng):
 
         descriptions = ITEM_DESCRIPTIONS[claim["claim_type"]]
 
-        # Split the claim amount into item amounts.
         remaining_amount = claim["claimed_amount"]
 
         for index in range(item_count):
             if index == item_count - 1:
                 item_amount = remaining_amount
             else:
-                # Keep enough amount for the remaining items.
                 maximum = remaining_amount / (item_count - index)
 
                 item_amount = round(
@@ -74,7 +71,6 @@ def generate_claim_items(claims, rng):
 
 
 def calculate_claim_totals(claims, claim_items):
-    """Calculate claim amounts from their item records."""
 
     totals = {}
 

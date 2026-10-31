@@ -2,12 +2,7 @@ from generator.ids import next_id
 
 
 def generate_policy_coverages(policies, coverage_catalog, rng):
-    """
-    Connect each policy to 1-3 compatible coverages.
 
-    Each connection stores the policy-specific coverage limit
-    and deductible.
-    """
 
     policy_coverages = []
 

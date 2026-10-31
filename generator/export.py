@@ -11,7 +11,6 @@ SQL_DIR = os.path.join(BASE_DIR, "output", "sql")
 
 
 def create_output_directories():
-    """Create output folders if they do not exist."""
 
     os.makedirs(CSV_DIR, exist_ok=True)
     os.makedirs(JSON_DIR, exist_ok=True)
@@ -19,7 +18,6 @@ def create_output_directories():
 
 
 def export_to_csv(table_name, records):
-    """Export a list of dictionaries to a CSV file."""
 
     if not records:
         return
@@ -37,7 +35,6 @@ def export_to_csv(table_name, records):
 
 
 def export_to_json(table_name, records):
-    """Export records to a JSON file."""
 
     file_path = os.path.join(JSON_DIR, f"{table_name}.json")
 
@@ -46,7 +43,6 @@ def export_to_json(table_name, records):
 
 
 def export_to_sql(table_name, records):
-    """Export records as simple SQL INSERT statements."""
 
     if not records:
         return
@@ -86,7 +82,6 @@ def export_to_sql(table_name, records):
 
 
 def export_all(data):
-    """Export all generated tables into CSV, JSON and SQL."""
 
     create_output_directories()
 

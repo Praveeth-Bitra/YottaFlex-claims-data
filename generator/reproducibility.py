@@ -5,7 +5,6 @@ from generator.main import generate_dataset
 
 
 def calculate_checksum(data):
-    """Calculate a checksum for the generated dataset."""
 
     serialized_data = json.dumps(
         data,
@@ -19,7 +18,6 @@ def calculate_checksum(data):
 
 
 def check_reproducibility():
-    """Generate the dataset twice and compare the checksums."""
 
     print("Running reproducibility test...")
 

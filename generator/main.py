@@ -21,37 +21,29 @@ from generator.export import export_all
 
 
 def generate_dataset():
-    """Run the full data generation workflow."""
 
     rng = create_random_generator()
     reset_id_counters()
 
-    # 1. Customers and master data
     customers = generate_customers(rng)
     coverage_catalog = generate_coverage_catalog()
     adjusters = generate_adjusters(rng)
 
-    # 2. Policies and policy coverages
     policies = generate_policies(customers, rng)
     policy_coverages = generate_policy_coverages(
         policies, coverage_catalog, rng
     )
 
-    # 3. Claims and claim items
     claims = generate_claims(policies, rng)
     claim_items = generate_claim_items(claims, rng)
     claims = calculate_claim_totals(claims, claim_items)
 
-    # 4. Incidents
     incidents = generate_incidents(claims, policies, rng)
 
-    # 5. Documents
     documents = generate_documents(claims, rng)
 
-    # 6. Assign adjusters
     assignments = assign_adjusters(claims, adjusters, rng)
 
-    # 7. Assessments, reserves and settlements
     assessments = assess_claims(
         claims, policies, incidents, documents, policy_coverages
     )
@@ -62,20 +54,16 @@ def generate_dataset():
         claims, assessments, policies, policy_coverages
     )
 
-    # 8. Claim events
     events = generate_claim_events(
         claims, incidents, assignments, assessments, settlements
     )
 
-    # 9. Inject anomalies AFTER baseline generation
     anomaly_records = inject_anomalies(
         claims, policies, incidents, documents, settlements, policy_coverages
     )
 
-    # 10. Ground truth
     ground_truth = generate_ground_truth(anomaly_records)
 
-    # 11. Collect final dataset
     data = {
         "customers": customers,
         "policies": policies,
