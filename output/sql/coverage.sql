@@ -1,0 +1,15 @@
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000001', 'MOTOR', 'Collision', 50000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000002', 'MOTOR', 'Liability', 100000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000003', 'MOTOR', 'Comprehensive', 40000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000004', 'HEALTH', 'Hospitalization', 200000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000005', 'HEALTH', 'Outpatient', 20000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000006', 'HEALTH', 'Dental', 5000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000007', 'HOME', 'Structure', 300000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000008', 'HOME', 'Contents', 50000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000009', 'HOME', 'Personal Liability', 100000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000010', 'TRAVEL', 'Trip Medical', 50000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000011', 'TRAVEL', 'Trip Cancellation', 10000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000012', 'TRAVEL', 'Baggage Loss', 3000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000013', 'THEFT', 'Personal Property', 20000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000014', 'THEFT', 'Vehicle Theft', 40000);
+INSERT INTO coverage (coverage_id, product_type, coverage_name, coverage_limit) VALUES ('COV-000015', 'THEFT', 'Burglary', 30000);

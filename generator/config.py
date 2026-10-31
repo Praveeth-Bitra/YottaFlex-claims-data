@@ -1,0 +1,16 @@
+import random
+from datetime import date
+
+RANDOM_SEED = 20261022
+REFERENCE_DATE = date(2026, 10, 22)
+CUSTOMER_COUNT = 1200
+POLICY_COUNT = 2000
+CLAIM_COUNT = 1000
+ADJUSTER_COUNT = 40
+CURRENCY = 'USD'
+DECIMAL_PLACES = 2
+PRODUCT_TYPES = ['MOTOR','HEALTH','HOME','TRAVEL','THEFT']
+CLAIM_TYPES = ['MOTOR','HEALTH','HOME','TRAVEL','THEFT']
+
+def create_random_generator():
+    return random.Random(RANDOM_SEED)

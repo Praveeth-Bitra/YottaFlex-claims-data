@@ -1,0 +1,7 @@
+record_id,table_name,issue_type,affected_field,original_value,injected_value,expected_outcome,expected_reason
+INC-000001,Incident,Incident Before Policy Start,incident_date,2025-05-15,2025-01-26,Rejected,Incident occurred before policy coverage began.
+POL-HEALTH-2026-001795,Policy,Policy Cancelled Before Incident,cancellation_date,,2025-07-03,Rejected,Policy was cancelled before the incident.
+INC-000003-DUP,Incident,Duplicate Incident,claim_id,,CLM-2026-000003,Duplicate Detected,Two incident records refer to the same claim.
+SET-CLM-2026-000004-001,Settlement,Settlement Exceeds Limit,payout_amount,899.76,51000,Invalid Settlement,Settlement exceeds the coverage limit.
+CLM-2026-000005,Document,Missing Mandatory Document,document_type,4,0,Pending Information,Mandatory claim evidence is missing.
+SET-CLM-2026-000007-002,Settlement,Claim Paid Twice,claim_id,1,2,Duplicate Payment Detected,More than one payment exists for the same claim.

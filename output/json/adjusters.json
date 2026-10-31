@@ -1,0 +1,202 @@
+[
+    {
+        "adjuster_id": "ADJ-000001",
+        "specialization": "MOTOR",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000002",
+        "specialization": "MOTOR",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000003",
+        "specialization": "MOTOR",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000004",
+        "specialization": "MOTOR",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000005",
+        "specialization": "MOTOR",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000006",
+        "specialization": "MOTOR",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000007",
+        "specialization": "HEALTH",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000008",
+        "specialization": "HEALTH",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000009",
+        "specialization": "HEALTH",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000010",
+        "specialization": "HEALTH",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000011",
+        "specialization": "HEALTH",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000012",
+        "specialization": "HEALTH",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000013",
+        "specialization": "HOME",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000014",
+        "specialization": "HOME",
+        "status": "Inactive"
+    },
+    {
+        "adjuster_id": "ADJ-000015",
+        "specialization": "HOME",
+        "status": "Inactive"
+    },
+    {
+        "adjuster_id": "ADJ-000016",
+        "specialization": "HOME",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000017",
+        "specialization": "HOME",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000018",
+        "specialization": "HOME",
+        "status": "Inactive"
+    },
+    {
+        "adjuster_id": "ADJ-000019",
+        "specialization": "TRAVEL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000020",
+        "specialization": "TRAVEL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000021",
+        "specialization": "TRAVEL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000022",
+        "specialization": "TRAVEL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000023",
+        "specialization": "TRAVEL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000024",
+        "specialization": "TRAVEL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000025",
+        "specialization": "THEFT",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000026",
+        "specialization": "THEFT",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000027",
+        "specialization": "THEFT",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000028",
+        "specialization": "THEFT",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000029",
+        "specialization": "THEFT",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000030",
+        "specialization": "THEFT",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000031",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000032",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000033",
+        "specialization": "GENERAL",
+        "status": "Inactive"
+    },
+    {
+        "adjuster_id": "ADJ-000034",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000035",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000036",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000037",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000038",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000039",
+        "specialization": "GENERAL",
+        "status": "Active"
+    },
+    {
+        "adjuster_id": "ADJ-000040",
+        "specialization": "GENERAL",
+        "status": "Active"
+    }
+]

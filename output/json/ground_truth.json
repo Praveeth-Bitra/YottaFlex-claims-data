@@ -1,0 +1,62 @@
+[
+    {
+        "record_id": "INC-000001",
+        "table_name": "Incident",
+        "issue_type": "Incident Before Policy Start",
+        "affected_field": "incident_date",
+        "original_value": "2025-05-15",
+        "injected_value": "2025-01-26",
+        "expected_outcome": "Rejected",
+        "expected_reason": "Incident occurred before policy coverage began."
+    },
+    {
+        "record_id": "POL-HEALTH-2026-001795",
+        "table_name": "Policy",
+        "issue_type": "Policy Cancelled Before Incident",
+        "affected_field": "cancellation_date",
+        "original_value": null,
+        "injected_value": "2025-07-03",
+        "expected_outcome": "Rejected",
+        "expected_reason": "Policy was cancelled before the incident."
+    },
+    {
+        "record_id": "INC-000003-DUP",
+        "table_name": "Incident",
+        "issue_type": "Duplicate Incident",
+        "affected_field": "claim_id",
+        "original_value": null,
+        "injected_value": "CLM-2026-000003",
+        "expected_outcome": "Duplicate Detected",
+        "expected_reason": "Two incident records refer to the same claim."
+    },
+    {
+        "record_id": "SET-CLM-2026-000004-001",
+        "table_name": "Settlement",
+        "issue_type": "Settlement Exceeds Limit",
+        "affected_field": "payout_amount",
+        "original_value": 899.76,
+        "injected_value": 51000,
+        "expected_outcome": "Invalid Settlement",
+        "expected_reason": "Settlement exceeds the coverage limit."
+    },
+    {
+        "record_id": "CLM-2026-000005",
+        "table_name": "Document",
+        "issue_type": "Missing Mandatory Document",
+        "affected_field": "document_type",
+        "original_value": 4,
+        "injected_value": 0,
+        "expected_outcome": "Pending Information",
+        "expected_reason": "Mandatory claim evidence is missing."
+    },
+    {
+        "record_id": "SET-CLM-2026-000007-002",
+        "table_name": "Settlement",
+        "issue_type": "Claim Paid Twice",
+        "affected_field": "claim_id",
+        "original_value": 1,
+        "injected_value": 2,
+        "expected_outcome": "Duplicate Payment Detected",
+        "expected_reason": "More than one payment exists for the same claim."
+    }
+]
