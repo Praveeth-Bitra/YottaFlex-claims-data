@@ -1,4 +1,3 @@
-
 from generator.config import create_random_generator
 from generator.ids import reset_id_counters
 from generator.customers import generate_customers
@@ -14,54 +13,60 @@ from generator.assessments import assess_claims
 from generator.reserves import generate_reserves
 from generator.settlements import generate_settlements
 from generator.claim_events import generate_claim_events
-from generator.anomalies import inject_anomalies
+from generator.anomalies import (
+    inject_source_anomalies,
+    inject_settlement_anomalies,
+)
 from generator.ground_truth import generate_ground_truth
 from generator.validation import run_validation
 from generator.export import export_all
 
 
 def generate_dataset():
-
     rng = create_random_generator()
     reset_id_counters()
-
     customers = generate_customers(rng)
     coverage_catalog = generate_coverage_catalog()
     adjusters = generate_adjusters(rng)
-
     policies = generate_policies(customers, rng)
     policy_coverages = generate_policy_coverages(
         policies, coverage_catalog, rng
     )
-
     claims = generate_claims(policies, rng)
     claim_items = generate_claim_items(claims, rng)
     claims = calculate_claim_totals(claims, claim_items)
-
     incidents = generate_incidents(claims, policies, rng)
-
     documents = generate_documents(claims, rng)
-
     assignments = assign_adjusters(claims, adjusters, rng)
-
-    assessments = assess_claims(
-        claims, policies, incidents, documents, policy_coverages
+    anomaly_records = inject_source_anomalies(
+        claims=claims,
+        policies=policies,
+        incidents=incidents,
+        documents=documents,
     )
-
+    claims = calculate_claim_totals(claims, claim_items)
+    assessments = assess_claims(
+        claims, policies, incidents, documents, policy_coverages,
+        coverage_catalog
+    )
     reserves = generate_reserves(claims, assessments)
-
     settlements = generate_settlements(
         claims, assessments, policies, policy_coverages
     )
-
+    settlement_anomaly_records = inject_settlement_anomalies(
+        claims=claims,
+        settlements=settlements,
+        policy_coverages=policy_coverages,
+    )
+    anomaly_records.extend(settlement_anomaly_records)
     events = generate_claim_events(
-        claims, incidents, assignments, assessments, settlements
-    )
-
-    anomaly_records = inject_anomalies(
-        claims, policies, incidents, documents, settlements, policy_coverages
-    )
-
+    claims,
+    incidents,
+    assignments,
+    assessments,
+    settlements,
+    anomaly_records
+)
     ground_truth = generate_ground_truth(anomaly_records)
 
     data = {
@@ -79,7 +84,7 @@ def generate_dataset():
         "reserves": reserves,
         "settlements": settlements,
         "claim_events": events,
-        "ground_truth": ground_truth
+        "ground_truth": ground_truth,
     }
 
     return data
@@ -87,13 +92,9 @@ def generate_dataset():
 
 if __name__ == "__main__":
     dataset = generate_dataset()
-
     results = run_validation(dataset)
 
     for check, passed in results.items():
-        if passed:
-            print(check, "PASS")
-        else:
-            print(check, "FAIL")
+        print(check, "PASS" if passed else "FAIL")
 
     export_all(dataset)

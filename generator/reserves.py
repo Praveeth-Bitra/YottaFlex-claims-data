@@ -1,44 +1,77 @@
 from generator.ids import next_id
 
 
+EXPENSE_RESERVE_RATE = 0.05
+
+
 def generate_reserves(claims, assessments):
-    """Generate indemnity and expense reserves for every claim."""
+    """
+    Derive indemnity and expense reserves from final claims and assessments.
+
+    Rules:
+    - Rejected: no indemnity or expense reserve.
+    - Pending Information: retain the full claimed amount as an initial reserve.
+    - Approved / Partially Approved: indemnity reserve equals approved amount;
+      expense reserve is calculated from the approved amount.
+    """
+
+    assessment_lookup = {a["claim_id"]: a for a in assessments}
+    claim_ids = {claim["claim_id"] for claim in claims}
+
+    missing_assessments = claim_ids - set(assessment_lookup)
+    if missing_assessments:
+        raise ValueError(
+            "Cannot calculate reserves; assessments missing for claims: "
+            + ", ".join(sorted(missing_assessments)[:10])
+        )
 
     reserves = []
 
-    assessment_lookup = {
-        assessment["claim_id"]: assessment
-        for assessment in assessments
-    }
-
     for claim in claims:
         assessment = assessment_lookup[claim["claim_id"]]
+        claimed_amount = round(float(claim["claimed_amount"]), 2)
+        decision = assessment["decision"]
+        approved_amount = assessment["approved_amount"]
 
-        claimed_amount = claim["claimed_amount"]
-
-        # Initial reserve estimates.
         initial_indemnity = claimed_amount
-        initial_expense = round(claimed_amount * 0.05, 2)
+        initial_expense = round(claimed_amount * EXPENSE_RESERVE_RATE, 2)
 
-        # Update reserves based on the assessment decision.
-        if assessment["decision"] == "Rejected":
-            final_indemnity = 0
-            final_expense = 0
+        if decision == "Rejected":
+            final_indemnity = 0.0
+            final_expense = 0.0
 
-        elif assessment["decision"] == "Pending Information":
+        elif decision == "Pending Information":
             final_indemnity = initial_indemnity
             final_expense = initial_expense
 
+        elif decision in ("Approved", "Partially Approved"):
+            if approved_amount is None:
+                raise ValueError(
+                    f"{claim['claim_id']} has decision {decision} "
+                    "but no approved_amount."
+                )
+            approved_amount = round(float(approved_amount), 2)
+            if approved_amount < 0 or approved_amount > claimed_amount:
+                raise ValueError(
+                    f"Invalid approved_amount for {claim['claim_id']}: "
+                    f"{approved_amount} (claimed {claimed_amount})."
+                )
+            final_indemnity = approved_amount
+            final_expense = round(
+                approved_amount * EXPENSE_RESERVE_RATE, 2
+            )
+
         else:
-            final_indemnity = assessment["approved_amount"]
-            final_expense = round(final_indemnity * 0.05, 2)
+            raise ValueError(
+                f"Unknown assessment decision for {claim['claim_id']}: {decision}"
+            )
 
         reserves.append({
             "reserve_id": next_id("reserve"),
             "claim_id": claim["claim_id"],
             "reserve_type": "Indemnity",
             "initial_amount": initial_indemnity,
-            "reserved_amount": final_indemnity
+            "reserved_amount": round(final_indemnity, 2)
         })
 
         reserves.append({
@@ -46,7 +79,7 @@ def generate_reserves(claims, assessments):
             "claim_id": claim["claim_id"],
             "reserve_type": "Expense",
             "initial_amount": initial_expense,
-            "reserved_amount": final_expense
+            "reserved_amount": round(final_expense, 2)
         })
 
     return reserves

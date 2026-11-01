@@ -1,3 +1,4 @@
+
 from generator.config import REFERENCE_DATE
 from generator.ids import next_id
 
@@ -7,11 +8,10 @@ def generate_claim_events(
     incidents,
     assignments,
     assessments,
-    settlements
+    settlements,
+    anomaly_records
 ):
-
     events = []
-
     incident_lookup = {
         incident["claim_id"]: incident
         for incident in incidents
@@ -27,16 +27,63 @@ def generate_claim_events(
         for assessment in assessments
     }
 
-    settlement_lookup = {
-        settlement["claim_id"]: settlement
-        for settlement in settlements
-    }
+    settlement_lookup = {}
+    settlement_id_lookup = {}
 
+    for settlement in settlements:
+        settlement_lookup.setdefault(
+            settlement["claim_id"], settlement
+        )
+        settlement_id_lookup[settlement["settlement_id"]] = settlement
+    anomaly_events = {}
+
+    for anomaly in anomaly_records:
+        issue_type = anomaly["issue_type"]
+        table_name = anomaly["table_name"]
+        record_id = anomaly["record_id"]
+
+        claim_id = None
+        event_type = None
+        event_date = REFERENCE_DATE
+
+        if issue_type == "Duplicate Incident":
+            claim_id = anomaly["injected_value"]
+            event_type = "Duplicate Incident Detected"
+
+            incident = incident_lookup.get(claim_id)
+            if incident:
+                event_date = incident["incident_date"]
+
+        elif issue_type == "Settlement Exceeds Limit":
+            settlement = settlement_id_lookup.get(record_id)
+
+            if settlement:
+                claim_id = settlement["claim_id"]
+                event_type = "Settlement Exceeds Limit Detected"
+                event_date = settlement["settlement_date"]
+
+        elif issue_type == "Claim Paid Twice":
+            settlement = settlement_id_lookup.get(record_id)
+
+            if settlement:
+                claim_id = settlement["claim_id"]
+                event_type = "Duplicate Payment Detected"
+                event_date = settlement["settlement_date"]
+
+        if claim_id and event_type:
+            anomaly_events.setdefault(claim_id, []).append(
+                (event_type, event_date)
+            )
     for claim in claims:
         claim_id = claim["claim_id"]
 
-        incident = incident_lookup[claim_id]
-        assessment = assessment_lookup[claim_id]
+        incident = incident_lookup.get(claim_id)
+        assessment = assessment_lookup.get(claim_id)
+
+        if incident is None or assessment is None:
+            raise ValueError(
+                f"Missing incident or assessment for {claim_id}"
+            )
 
         incident_date = incident["incident_date"]
 
@@ -80,7 +127,9 @@ def generate_claim_events(
             claim_events.append(
                 ("Settlement Recommended", settlement["settlement_date"])
             )
-
+        claim_events.extend(
+            anomaly_events.get(claim_id, [])
+        )
         claim_events.sort(key=lambda event: event[1])
 
         for sequence, (event_type, event_date) in enumerate(

@@ -1,16 +1,16 @@
-coverage_id,product_type,coverage_name,coverage_limit
-COV-000001,MOTOR,Collision,50000
-COV-000002,MOTOR,Liability,100000
-COV-000003,MOTOR,Comprehensive,40000
-COV-000004,HEALTH,Hospitalization,200000
-COV-000005,HEALTH,Outpatient,20000
-COV-000006,HEALTH,Dental,5000
-COV-000007,HOME,Structure,300000
-COV-000008,HOME,Contents,50000
-COV-000009,HOME,Personal Liability,100000
-COV-000010,TRAVEL,Trip Medical,50000
-COV-000011,TRAVEL,Trip Cancellation,10000
-COV-000012,TRAVEL,Baggage Loss,3000
-COV-000013,THEFT,Personal Property,20000
-COV-000014,THEFT,Vehicle Theft,40000
-COV-000015,THEFT,Burglary,30000
+coverage_id,product_type,coverage_name,coverage_limit,exclusions
+COV-000001,MOTOR,Collision,50000,"['Intentional Damage', 'Mechanical Breakdown']"
+COV-000002,MOTOR,Liability,100000,"['Wear and Tear', 'Intentional Damage']"
+COV-000003,MOTOR,Comprehensive,40000,"['Mechanical Breakdown', 'Normal Wear and Tear']"
+COV-000004,HEALTH,Hospitalization,200000,"['Cosmetic Treatment', 'Experimental Treatment']"
+COV-000005,HEALTH,Outpatient,20000,"['Cosmetic Treatment', 'Experimental Treatment']"
+COV-000006,HEALTH,Dental,5000,"['Cosmetic Treatment', 'Experimental Treatment']"
+COV-000007,HOME,Structure,300000,"['Normal Wear and Tear', 'Intentional Damage']"
+COV-000008,HOME,Contents,50000,"['Normal Wear and Tear', 'Intentional Damage']"
+COV-000009,HOME,Personal Liability,100000,"['Intentional Damage', 'Contractual Liability']"
+COV-000010,TRAVEL,Trip Medical,50000,"['Pre-existing Condition', 'Elective Treatment']"
+COV-000011,TRAVEL,Trip Cancellation,10000,"['Voluntary Cancellation', 'Known Event']"
+COV-000012,TRAVEL,Baggage Loss,3000,"['Unattended Baggage', 'Normal Wear and Tear']"
+COV-000013,THEFT,Personal Property,20000,"['Unattended Property', 'Fraudulent Claim']"
+COV-000014,THEFT,Vehicle Theft,40000,"['Keys Left in Vehicle', 'Fraudulent Claim']"
+COV-000015,THEFT,Burglary,30000,"['Unforced Entry', 'Fraudulent Claim']"

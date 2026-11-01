@@ -3,7 +3,7 @@ The challenge allows LLM tools, so this file explains where I used AI and how I 
 
 # 1. Tools I used
 - Gemini for planning, drafting documents and talking through decisions.
-- Claude for writing code.
+- OpenAI Codex for writing code.
 
 # 2. How I worked with AI
 I did not ask AI to "build the project". I made the plan first and gave AI one small task at a time.

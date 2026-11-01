@@ -4,28 +4,28 @@
         "claim_id": "CLM-2026-000001",
         "reserve_type": "Indemnity",
         "initial_amount": 11134.79,
-        "reserved_amount": 11134.79
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000002",
         "claim_id": "CLM-2026-000001",
         "reserve_type": "Expense",
         "initial_amount": 556.74,
-        "reserved_amount": 556.74
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000003",
         "claim_id": "CLM-2026-000002",
         "reserve_type": "Indemnity",
         "initial_amount": 8681.29,
-        "reserved_amount": 8681.29
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000004",
         "claim_id": "CLM-2026-000002",
         "reserve_type": "Expense",
         "initial_amount": 434.06,
-        "reserved_amount": 434.06
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000005",
@@ -88,14 +88,14 @@
         "claim_id": "CLM-2026-000007",
         "reserve_type": "Indemnity",
         "initial_amount": 10143.47,
-        "reserved_amount": 10143.47
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000014",
         "claim_id": "CLM-2026-000007",
         "reserve_type": "Expense",
         "initial_amount": 507.17,
-        "reserved_amount": 507.17
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000015",
@@ -130,14 +130,14 @@
         "claim_id": "CLM-2026-000010",
         "reserve_type": "Indemnity",
         "initial_amount": 11637.4,
-        "reserved_amount": 5000
+        "reserved_amount": 11637.4
     },
     {
         "reserve_id": "RES-000020",
         "claim_id": "CLM-2026-000010",
         "reserve_type": "Expense",
         "initial_amount": 581.87,
-        "reserved_amount": 250.0
+        "reserved_amount": 581.87
     },
     {
         "reserve_id": "RES-000021",
@@ -214,14 +214,14 @@
         "claim_id": "CLM-2026-000016",
         "reserve_type": "Indemnity",
         "initial_amount": 10905.93,
-        "reserved_amount": 10905.93
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000032",
         "claim_id": "CLM-2026-000016",
         "reserve_type": "Expense",
         "initial_amount": 545.3,
-        "reserved_amount": 545.3
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000033",
@@ -298,14 +298,14 @@
         "claim_id": "CLM-2026-000022",
         "reserve_type": "Indemnity",
         "initial_amount": 1340.28,
-        "reserved_amount": 1340.28
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000044",
         "claim_id": "CLM-2026-000022",
         "reserve_type": "Expense",
         "initial_amount": 67.01,
-        "reserved_amount": 67.01
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000045",
@@ -466,14 +466,14 @@
         "claim_id": "CLM-2026-000034",
         "reserve_type": "Indemnity",
         "initial_amount": 13437.81,
-        "reserved_amount": 5000
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000068",
         "claim_id": "CLM-2026-000034",
         "reserve_type": "Expense",
         "initial_amount": 671.89,
-        "reserved_amount": 250.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000069",
@@ -508,14 +508,14 @@
         "claim_id": "CLM-2026-000037",
         "reserve_type": "Indemnity",
         "initial_amount": 9971.38,
-        "reserved_amount": 9971.38
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000074",
         "claim_id": "CLM-2026-000037",
         "reserve_type": "Expense",
         "initial_amount": 498.57,
-        "reserved_amount": 498.57
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000075",
@@ -564,14 +564,14 @@
         "claim_id": "CLM-2026-000041",
         "reserve_type": "Indemnity",
         "initial_amount": 2702.53,
-        "reserved_amount": 2702.53
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000082",
         "claim_id": "CLM-2026-000041",
         "reserve_type": "Expense",
         "initial_amount": 135.13,
-        "reserved_amount": 135.13
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000083",
@@ -718,28 +718,28 @@
         "claim_id": "CLM-2026-000052",
         "reserve_type": "Indemnity",
         "initial_amount": 2288.23,
-        "reserved_amount": 2288.23
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000104",
         "claim_id": "CLM-2026-000052",
         "reserve_type": "Expense",
         "initial_amount": 114.41,
-        "reserved_amount": 114.41
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000105",
         "claim_id": "CLM-2026-000053",
         "reserve_type": "Indemnity",
         "initial_amount": 1223.57,
-        "reserved_amount": 1223.57
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000106",
         "claim_id": "CLM-2026-000053",
         "reserve_type": "Expense",
         "initial_amount": 61.18,
-        "reserved_amount": 61.18
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000107",
@@ -788,14 +788,14 @@
         "claim_id": "CLM-2026-000057",
         "reserve_type": "Indemnity",
         "initial_amount": 1900.1,
-        "reserved_amount": 1900.1
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000114",
         "claim_id": "CLM-2026-000057",
         "reserve_type": "Expense",
         "initial_amount": 95.0,
-        "reserved_amount": 95.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000115",
@@ -1124,14 +1124,14 @@
         "claim_id": "CLM-2026-000081",
         "reserve_type": "Indemnity",
         "initial_amount": 1474.94,
-        "reserved_amount": 1474.94
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000162",
         "claim_id": "CLM-2026-000081",
         "reserve_type": "Expense",
         "initial_amount": 73.75,
-        "reserved_amount": 73.75
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000163",
@@ -1348,14 +1348,14 @@
         "claim_id": "CLM-2026-000097",
         "reserve_type": "Indemnity",
         "initial_amount": 2480.35,
-        "reserved_amount": 2480.35
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000194",
         "claim_id": "CLM-2026-000097",
         "reserve_type": "Expense",
         "initial_amount": 124.02,
-        "reserved_amount": 124.02
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000195",
@@ -1446,14 +1446,14 @@
         "claim_id": "CLM-2026-000104",
         "reserve_type": "Indemnity",
         "initial_amount": 1788.37,
-        "reserved_amount": 1788.37
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000208",
         "claim_id": "CLM-2026-000104",
         "reserve_type": "Expense",
         "initial_amount": 89.42,
-        "reserved_amount": 89.42
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000209",
@@ -1488,14 +1488,14 @@
         "claim_id": "CLM-2026-000107",
         "reserve_type": "Indemnity",
         "initial_amount": 2335.1,
-        "reserved_amount": 2335.1
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000214",
         "claim_id": "CLM-2026-000107",
         "reserve_type": "Expense",
         "initial_amount": 116.75,
-        "reserved_amount": 116.75
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000215",
@@ -1796,14 +1796,14 @@
         "claim_id": "CLM-2026-000129",
         "reserve_type": "Indemnity",
         "initial_amount": 4372.73,
-        "reserved_amount": 4372.73
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000258",
         "claim_id": "CLM-2026-000129",
         "reserve_type": "Expense",
         "initial_amount": 218.64,
-        "reserved_amount": 218.64
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000259",
@@ -2090,14 +2090,14 @@
         "claim_id": "CLM-2026-000150",
         "reserve_type": "Indemnity",
         "initial_amount": 2151.78,
-        "reserved_amount": 2151.78
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000300",
         "claim_id": "CLM-2026-000150",
         "reserve_type": "Expense",
         "initial_amount": 107.59,
-        "reserved_amount": 107.59
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000301",
@@ -2132,14 +2132,14 @@
         "claim_id": "CLM-2026-000153",
         "reserve_type": "Indemnity",
         "initial_amount": 2278.56,
-        "reserved_amount": 2278.56
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000306",
         "claim_id": "CLM-2026-000153",
         "reserve_type": "Expense",
         "initial_amount": 113.93,
-        "reserved_amount": 113.93
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000307",
@@ -2244,28 +2244,28 @@
         "claim_id": "CLM-2026-000161",
         "reserve_type": "Indemnity",
         "initial_amount": 3491.74,
-        "reserved_amount": 3491.74
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000322",
         "claim_id": "CLM-2026-000161",
         "reserve_type": "Expense",
         "initial_amount": 174.59,
-        "reserved_amount": 174.59
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000323",
         "claim_id": "CLM-2026-000162",
         "reserve_type": "Indemnity",
         "initial_amount": 4749.58,
-        "reserved_amount": 4749.58
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000324",
         "claim_id": "CLM-2026-000162",
         "reserve_type": "Expense",
         "initial_amount": 237.48,
-        "reserved_amount": 237.48
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000325",
@@ -2580,14 +2580,14 @@
         "claim_id": "CLM-2026-000185",
         "reserve_type": "Indemnity",
         "initial_amount": 4836.94,
-        "reserved_amount": 4836.94
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000370",
         "claim_id": "CLM-2026-000185",
         "reserve_type": "Expense",
         "initial_amount": 241.85,
-        "reserved_amount": 241.85
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000371",
@@ -2608,28 +2608,28 @@
         "claim_id": "CLM-2026-000187",
         "reserve_type": "Indemnity",
         "initial_amount": 1187.71,
-        "reserved_amount": 1187.71
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000374",
         "claim_id": "CLM-2026-000187",
         "reserve_type": "Expense",
         "initial_amount": 59.39,
-        "reserved_amount": 59.39
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000375",
         "claim_id": "CLM-2026-000188",
         "reserve_type": "Indemnity",
         "initial_amount": 4416.98,
-        "reserved_amount": 4416.98
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000376",
         "claim_id": "CLM-2026-000188",
         "reserve_type": "Expense",
         "initial_amount": 220.85,
-        "reserved_amount": 220.85
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000377",
@@ -2958,14 +2958,14 @@
         "claim_id": "CLM-2026-000212",
         "reserve_type": "Indemnity",
         "initial_amount": 459.92,
-        "reserved_amount": 459.92
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000424",
         "claim_id": "CLM-2026-000212",
         "reserve_type": "Expense",
         "initial_amount": 23.0,
-        "reserved_amount": 23.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000425",
@@ -3056,14 +3056,14 @@
         "claim_id": "CLM-2026-000219",
         "reserve_type": "Indemnity",
         "initial_amount": 622.49,
-        "reserved_amount": 622.49
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000438",
         "claim_id": "CLM-2026-000219",
         "reserve_type": "Expense",
         "initial_amount": 31.12,
-        "reserved_amount": 31.12
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000439",
@@ -3336,14 +3336,14 @@
         "claim_id": "CLM-2026-000239",
         "reserve_type": "Indemnity",
         "initial_amount": 3089.79,
-        "reserved_amount": 3089.79
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000478",
         "claim_id": "CLM-2026-000239",
         "reserve_type": "Expense",
         "initial_amount": 154.49,
-        "reserved_amount": 154.49
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000479",
@@ -3462,14 +3462,14 @@
         "claim_id": "CLM-2026-000248",
         "reserve_type": "Indemnity",
         "initial_amount": 13230.93,
-        "reserved_amount": 13230.93
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000496",
         "claim_id": "CLM-2026-000248",
         "reserve_type": "Expense",
         "initial_amount": 661.55,
-        "reserved_amount": 661.55
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000497",
@@ -3490,14 +3490,14 @@
         "claim_id": "CLM-2026-000250",
         "reserve_type": "Indemnity",
         "initial_amount": 2654.83,
-        "reserved_amount": 2654.83
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000500",
         "claim_id": "CLM-2026-000250",
         "reserve_type": "Expense",
         "initial_amount": 132.74,
-        "reserved_amount": 132.74
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000501",
@@ -3532,14 +3532,14 @@
         "claim_id": "CLM-2026-000253",
         "reserve_type": "Indemnity",
         "initial_amount": 6969.39,
-        "reserved_amount": 6969.39
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000506",
         "claim_id": "CLM-2026-000253",
         "reserve_type": "Expense",
         "initial_amount": 348.47,
-        "reserved_amount": 348.47
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000507",
@@ -3574,14 +3574,14 @@
         "claim_id": "CLM-2026-000256",
         "reserve_type": "Indemnity",
         "initial_amount": 3370.08,
-        "reserved_amount": 3370.08
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000512",
         "claim_id": "CLM-2026-000256",
         "reserve_type": "Expense",
         "initial_amount": 168.5,
-        "reserved_amount": 168.5
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000513",
@@ -3728,14 +3728,14 @@
         "claim_id": "CLM-2026-000267",
         "reserve_type": "Indemnity",
         "initial_amount": 3989.93,
-        "reserved_amount": 3989.93
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000534",
         "claim_id": "CLM-2026-000267",
         "reserve_type": "Expense",
         "initial_amount": 199.5,
-        "reserved_amount": 199.5
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000535",
@@ -4092,14 +4092,14 @@
         "claim_id": "CLM-2026-000293",
         "reserve_type": "Indemnity",
         "initial_amount": 1378.59,
-        "reserved_amount": 1378.59
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000586",
         "claim_id": "CLM-2026-000293",
         "reserve_type": "Expense",
         "initial_amount": 68.93,
-        "reserved_amount": 68.93
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000587",
@@ -4148,14 +4148,14 @@
         "claim_id": "CLM-2026-000297",
         "reserve_type": "Indemnity",
         "initial_amount": 1409.63,
-        "reserved_amount": 1409.63
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000594",
         "claim_id": "CLM-2026-000297",
         "reserve_type": "Expense",
         "initial_amount": 70.48,
-        "reserved_amount": 70.48
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000595",
@@ -4246,14 +4246,14 @@
         "claim_id": "CLM-2026-000304",
         "reserve_type": "Indemnity",
         "initial_amount": 2207.89,
-        "reserved_amount": 2207.89
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000608",
         "claim_id": "CLM-2026-000304",
         "reserve_type": "Expense",
         "initial_amount": 110.39,
-        "reserved_amount": 110.39
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000609",
@@ -4288,14 +4288,14 @@
         "claim_id": "CLM-2026-000307",
         "reserve_type": "Indemnity",
         "initial_amount": 7208.09,
-        "reserved_amount": 7208.09
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000614",
         "claim_id": "CLM-2026-000307",
         "reserve_type": "Expense",
         "initial_amount": 360.4,
-        "reserved_amount": 360.4
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000615",
@@ -4344,14 +4344,14 @@
         "claim_id": "CLM-2026-000311",
         "reserve_type": "Indemnity",
         "initial_amount": 3730.03,
-        "reserved_amount": 3730.03
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000622",
         "claim_id": "CLM-2026-000311",
         "reserve_type": "Expense",
         "initial_amount": 186.5,
-        "reserved_amount": 186.5
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000623",
@@ -4470,14 +4470,14 @@
         "claim_id": "CLM-2026-000320",
         "reserve_type": "Indemnity",
         "initial_amount": 1187.52,
-        "reserved_amount": 1187.52
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000640",
         "claim_id": "CLM-2026-000320",
         "reserve_type": "Expense",
         "initial_amount": 59.38,
-        "reserved_amount": 59.38
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000641",
@@ -4708,14 +4708,14 @@
         "claim_id": "CLM-2026-000337",
         "reserve_type": "Indemnity",
         "initial_amount": 2206.42,
-        "reserved_amount": 2206.42
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000674",
         "claim_id": "CLM-2026-000337",
         "reserve_type": "Expense",
         "initial_amount": 110.32,
-        "reserved_amount": 110.32
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000675",
@@ -4876,14 +4876,14 @@
         "claim_id": "CLM-2026-000349",
         "reserve_type": "Indemnity",
         "initial_amount": 674.95,
-        "reserved_amount": 674.95
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000698",
         "claim_id": "CLM-2026-000349",
         "reserve_type": "Expense",
         "initial_amount": 33.75,
-        "reserved_amount": 33.75
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000699",
@@ -4946,28 +4946,28 @@
         "claim_id": "CLM-2026-000354",
         "reserve_type": "Indemnity",
         "initial_amount": 4201.75,
-        "reserved_amount": 4201.75
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000708",
         "claim_id": "CLM-2026-000354",
         "reserve_type": "Expense",
         "initial_amount": 210.09,
-        "reserved_amount": 210.09
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000709",
         "claim_id": "CLM-2026-000355",
         "reserve_type": "Indemnity",
         "initial_amount": 5606.84,
-        "reserved_amount": 5606.84
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000710",
         "claim_id": "CLM-2026-000355",
         "reserve_type": "Expense",
         "initial_amount": 280.34,
-        "reserved_amount": 280.34
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000711",
@@ -5170,14 +5170,14 @@
         "claim_id": "CLM-2026-000370",
         "reserve_type": "Indemnity",
         "initial_amount": 1521.96,
-        "reserved_amount": 1521.96
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000740",
         "claim_id": "CLM-2026-000370",
         "reserve_type": "Expense",
         "initial_amount": 76.1,
-        "reserved_amount": 76.1
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000741",
@@ -5198,14 +5198,14 @@
         "claim_id": "CLM-2026-000372",
         "reserve_type": "Indemnity",
         "initial_amount": 1964.42,
-        "reserved_amount": 1964.42
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000744",
         "claim_id": "CLM-2026-000372",
         "reserve_type": "Expense",
         "initial_amount": 98.22,
-        "reserved_amount": 98.22
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000745",
@@ -5310,14 +5310,14 @@
         "claim_id": "CLM-2026-000380",
         "reserve_type": "Indemnity",
         "initial_amount": 734.23,
-        "reserved_amount": 734.23
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000760",
         "claim_id": "CLM-2026-000380",
         "reserve_type": "Expense",
         "initial_amount": 36.71,
-        "reserved_amount": 36.71
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000761",
@@ -5394,14 +5394,14 @@
         "claim_id": "CLM-2026-000386",
         "reserve_type": "Indemnity",
         "initial_amount": 8489.1,
-        "reserved_amount": 8489.1
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000772",
         "claim_id": "CLM-2026-000386",
         "reserve_type": "Expense",
         "initial_amount": 424.46,
-        "reserved_amount": 424.46
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000773",
@@ -5478,28 +5478,28 @@
         "claim_id": "CLM-2026-000392",
         "reserve_type": "Indemnity",
         "initial_amount": 3892.33,
-        "reserved_amount": 3892.33
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000784",
         "claim_id": "CLM-2026-000392",
         "reserve_type": "Expense",
         "initial_amount": 194.62,
-        "reserved_amount": 194.62
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000785",
         "claim_id": "CLM-2026-000393",
         "reserve_type": "Indemnity",
         "initial_amount": 1364.28,
-        "reserved_amount": 1364.28
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000786",
         "claim_id": "CLM-2026-000393",
         "reserve_type": "Expense",
         "initial_amount": 68.21,
-        "reserved_amount": 68.21
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000787",
@@ -5534,14 +5534,14 @@
         "claim_id": "CLM-2026-000396",
         "reserve_type": "Indemnity",
         "initial_amount": 1346.03,
-        "reserved_amount": 1346.03
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000792",
         "claim_id": "CLM-2026-000396",
         "reserve_type": "Expense",
         "initial_amount": 67.3,
-        "reserved_amount": 67.3
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000793",
@@ -5646,14 +5646,14 @@
         "claim_id": "CLM-2026-000404",
         "reserve_type": "Indemnity",
         "initial_amount": 7051.26,
-        "reserved_amount": 7051.26
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000808",
         "claim_id": "CLM-2026-000404",
         "reserve_type": "Expense",
         "initial_amount": 352.56,
-        "reserved_amount": 352.56
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000809",
@@ -5674,14 +5674,14 @@
         "claim_id": "CLM-2026-000406",
         "reserve_type": "Indemnity",
         "initial_amount": 10982.56,
-        "reserved_amount": 10982.56
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000812",
         "claim_id": "CLM-2026-000406",
         "reserve_type": "Expense",
         "initial_amount": 549.13,
-        "reserved_amount": 549.13
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000813",
@@ -5716,14 +5716,14 @@
         "claim_id": "CLM-2026-000409",
         "reserve_type": "Indemnity",
         "initial_amount": 9219.8,
-        "reserved_amount": 5000
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000818",
         "claim_id": "CLM-2026-000409",
         "reserve_type": "Expense",
         "initial_amount": 460.99,
-        "reserved_amount": 250.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000819",
@@ -5786,28 +5786,28 @@
         "claim_id": "CLM-2026-000414",
         "reserve_type": "Indemnity",
         "initial_amount": 5493.36,
-        "reserved_amount": 5493.36
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000828",
         "claim_id": "CLM-2026-000414",
         "reserve_type": "Expense",
         "initial_amount": 274.67,
-        "reserved_amount": 274.67
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000829",
         "claim_id": "CLM-2026-000415",
         "reserve_type": "Indemnity",
         "initial_amount": 963.51,
-        "reserved_amount": 963.51
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000830",
         "claim_id": "CLM-2026-000415",
         "reserve_type": "Expense",
         "initial_amount": 48.18,
-        "reserved_amount": 48.18
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000831",
@@ -5842,14 +5842,14 @@
         "claim_id": "CLM-2026-000418",
         "reserve_type": "Indemnity",
         "initial_amount": 5415.18,
-        "reserved_amount": 5415.18
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000836",
         "claim_id": "CLM-2026-000418",
         "reserve_type": "Expense",
         "initial_amount": 270.76,
-        "reserved_amount": 270.76
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000837",
@@ -5968,14 +5968,14 @@
         "claim_id": "CLM-2026-000427",
         "reserve_type": "Indemnity",
         "initial_amount": 780.24,
-        "reserved_amount": 780.24
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000854",
         "claim_id": "CLM-2026-000427",
         "reserve_type": "Expense",
         "initial_amount": 39.01,
-        "reserved_amount": 39.01
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000855",
@@ -6304,14 +6304,14 @@
         "claim_id": "CLM-2026-000451",
         "reserve_type": "Indemnity",
         "initial_amount": 1738.06,
-        "reserved_amount": 1738.06
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000902",
         "claim_id": "CLM-2026-000451",
         "reserve_type": "Expense",
         "initial_amount": 86.9,
-        "reserved_amount": 86.9
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000903",
@@ -6360,28 +6360,28 @@
         "claim_id": "CLM-2026-000455",
         "reserve_type": "Indemnity",
         "initial_amount": 1288.74,
-        "reserved_amount": 1288.74
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000910",
         "claim_id": "CLM-2026-000455",
         "reserve_type": "Expense",
         "initial_amount": 64.44,
-        "reserved_amount": 64.44
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000911",
         "claim_id": "CLM-2026-000456",
         "reserve_type": "Indemnity",
         "initial_amount": 6152.09,
-        "reserved_amount": 6152.09
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000912",
         "claim_id": "CLM-2026-000456",
         "reserve_type": "Expense",
         "initial_amount": 307.6,
-        "reserved_amount": 307.6
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000913",
@@ -6626,28 +6626,28 @@
         "claim_id": "CLM-2026-000474",
         "reserve_type": "Indemnity",
         "initial_amount": 2052.51,
-        "reserved_amount": 2052.51
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000948",
         "claim_id": "CLM-2026-000474",
         "reserve_type": "Expense",
         "initial_amount": 102.63,
-        "reserved_amount": 102.63
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000949",
         "claim_id": "CLM-2026-000475",
         "reserve_type": "Indemnity",
         "initial_amount": 3108.39,
-        "reserved_amount": 3108.39
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000950",
         "claim_id": "CLM-2026-000475",
         "reserve_type": "Expense",
         "initial_amount": 155.42,
-        "reserved_amount": 155.42
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000951",
@@ -6724,14 +6724,14 @@
         "claim_id": "CLM-2026-000481",
         "reserve_type": "Indemnity",
         "initial_amount": 1897.49,
-        "reserved_amount": 1897.49
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000962",
         "claim_id": "CLM-2026-000481",
         "reserve_type": "Expense",
         "initial_amount": 94.87,
-        "reserved_amount": 94.87
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000963",
@@ -6850,14 +6850,14 @@
         "claim_id": "CLM-2026-000490",
         "reserve_type": "Indemnity",
         "initial_amount": 13628.97,
-        "reserved_amount": 5000
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000980",
         "claim_id": "CLM-2026-000490",
         "reserve_type": "Expense",
         "initial_amount": 681.45,
-        "reserved_amount": 250.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000981",
@@ -6920,14 +6920,14 @@
         "claim_id": "CLM-2026-000495",
         "reserve_type": "Indemnity",
         "initial_amount": 6709.08,
-        "reserved_amount": 6709.08
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000990",
         "claim_id": "CLM-2026-000495",
         "reserve_type": "Expense",
         "initial_amount": 335.45,
-        "reserved_amount": 335.45
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-000991",
@@ -7228,14 +7228,14 @@
         "claim_id": "CLM-2026-000517",
         "reserve_type": "Indemnity",
         "initial_amount": 2495.92,
-        "reserved_amount": 2495.92
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001034",
         "claim_id": "CLM-2026-000517",
         "reserve_type": "Expense",
         "initial_amount": 124.8,
-        "reserved_amount": 124.8
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001035",
@@ -7298,14 +7298,14 @@
         "claim_id": "CLM-2026-000522",
         "reserve_type": "Indemnity",
         "initial_amount": 8775.01,
-        "reserved_amount": 8775.01
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001044",
         "claim_id": "CLM-2026-000522",
         "reserve_type": "Expense",
         "initial_amount": 438.75,
-        "reserved_amount": 438.75
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001045",
@@ -7368,28 +7368,28 @@
         "claim_id": "CLM-2026-000527",
         "reserve_type": "Indemnity",
         "initial_amount": 1990.43,
-        "reserved_amount": 1990.43
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001054",
         "claim_id": "CLM-2026-000527",
         "reserve_type": "Expense",
         "initial_amount": 99.52,
-        "reserved_amount": 99.52
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001055",
         "claim_id": "CLM-2026-000528",
         "reserve_type": "Indemnity",
         "initial_amount": 5590.22,
-        "reserved_amount": 5590.22
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001056",
         "claim_id": "CLM-2026-000528",
         "reserve_type": "Expense",
         "initial_amount": 279.51,
-        "reserved_amount": 279.51
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001057",
@@ -7564,28 +7564,28 @@
         "claim_id": "CLM-2026-000541",
         "reserve_type": "Indemnity",
         "initial_amount": 419.41,
-        "reserved_amount": 419.41
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001082",
         "claim_id": "CLM-2026-000541",
         "reserve_type": "Expense",
         "initial_amount": 20.97,
-        "reserved_amount": 20.97
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001083",
         "claim_id": "CLM-2026-000542",
         "reserve_type": "Indemnity",
         "initial_amount": 3715.71,
-        "reserved_amount": 3715.71
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001084",
         "claim_id": "CLM-2026-000542",
         "reserve_type": "Expense",
         "initial_amount": 185.79,
-        "reserved_amount": 185.79
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001085",
@@ -7690,14 +7690,14 @@
         "claim_id": "CLM-2026-000550",
         "reserve_type": "Indemnity",
         "initial_amount": 4826.89,
-        "reserved_amount": 4826.89
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001100",
         "claim_id": "CLM-2026-000550",
         "reserve_type": "Expense",
         "initial_amount": 241.34,
-        "reserved_amount": 241.34
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001101",
@@ -7760,14 +7760,14 @@
         "claim_id": "CLM-2026-000555",
         "reserve_type": "Indemnity",
         "initial_amount": 8328.94,
-        "reserved_amount": 8328.94
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001110",
         "claim_id": "CLM-2026-000555",
         "reserve_type": "Expense",
         "initial_amount": 416.45,
-        "reserved_amount": 416.45
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001111",
@@ -7914,14 +7914,14 @@
         "claim_id": "CLM-2026-000566",
         "reserve_type": "Indemnity",
         "initial_amount": 6064.24,
-        "reserved_amount": 6064.24
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001132",
         "claim_id": "CLM-2026-000566",
         "reserve_type": "Expense",
         "initial_amount": 303.21,
-        "reserved_amount": 303.21
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001133",
@@ -8012,14 +8012,14 @@
         "claim_id": "CLM-2026-000573",
         "reserve_type": "Indemnity",
         "initial_amount": 269.87,
-        "reserved_amount": 269.87
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001146",
         "claim_id": "CLM-2026-000573",
         "reserve_type": "Expense",
         "initial_amount": 13.49,
-        "reserved_amount": 13.49
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001147",
@@ -8082,14 +8082,14 @@
         "claim_id": "CLM-2026-000578",
         "reserve_type": "Indemnity",
         "initial_amount": 11460.92,
-        "reserved_amount": 5000
+        "reserved_amount": 11460.92
     },
     {
         "reserve_id": "RES-001156",
         "claim_id": "CLM-2026-000578",
         "reserve_type": "Expense",
         "initial_amount": 573.05,
-        "reserved_amount": 250.0
+        "reserved_amount": 573.05
     },
     {
         "reserve_id": "RES-001157",
@@ -8124,14 +8124,14 @@
         "claim_id": "CLM-2026-000581",
         "reserve_type": "Indemnity",
         "initial_amount": 3448.52,
-        "reserved_amount": 3448.52
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001162",
         "claim_id": "CLM-2026-000581",
         "reserve_type": "Expense",
         "initial_amount": 172.43,
-        "reserved_amount": 172.43
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001163",
@@ -8208,14 +8208,14 @@
         "claim_id": "CLM-2026-000587",
         "reserve_type": "Indemnity",
         "initial_amount": 9718.75,
-        "reserved_amount": 9718.75
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001174",
         "claim_id": "CLM-2026-000587",
         "reserve_type": "Expense",
         "initial_amount": 485.94,
-        "reserved_amount": 485.94
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001175",
@@ -8278,14 +8278,14 @@
         "claim_id": "CLM-2026-000592",
         "reserve_type": "Indemnity",
         "initial_amount": 3379.78,
-        "reserved_amount": 3379.78
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001184",
         "claim_id": "CLM-2026-000592",
         "reserve_type": "Expense",
         "initial_amount": 168.99,
-        "reserved_amount": 168.99
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001185",
@@ -8376,14 +8376,14 @@
         "claim_id": "CLM-2026-000599",
         "reserve_type": "Indemnity",
         "initial_amount": 507.68,
-        "reserved_amount": 507.68
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001198",
         "claim_id": "CLM-2026-000599",
         "reserve_type": "Expense",
         "initial_amount": 25.38,
-        "reserved_amount": 25.38
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001199",
@@ -8502,14 +8502,14 @@
         "claim_id": "CLM-2026-000608",
         "reserve_type": "Indemnity",
         "initial_amount": 11629.04,
-        "reserved_amount": 11629.04
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001216",
         "claim_id": "CLM-2026-000608",
         "reserve_type": "Expense",
         "initial_amount": 581.45,
-        "reserved_amount": 581.45
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001217",
@@ -8530,14 +8530,14 @@
         "claim_id": "CLM-2026-000610",
         "reserve_type": "Indemnity",
         "initial_amount": 6321.85,
-        "reserved_amount": 5000
+        "reserved_amount": 6321.85
     },
     {
         "reserve_id": "RES-001220",
         "claim_id": "CLM-2026-000610",
         "reserve_type": "Expense",
         "initial_amount": 316.09,
-        "reserved_amount": 250.0
+        "reserved_amount": 316.09
     },
     {
         "reserve_id": "RES-001221",
@@ -9076,28 +9076,28 @@
         "claim_id": "CLM-2026-000649",
         "reserve_type": "Indemnity",
         "initial_amount": 3954.42,
-        "reserved_amount": 3954.42
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001298",
         "claim_id": "CLM-2026-000649",
         "reserve_type": "Expense",
         "initial_amount": 197.72,
-        "reserved_amount": 197.72
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001299",
         "claim_id": "CLM-2026-000650",
         "reserve_type": "Indemnity",
         "initial_amount": 1530.62,
-        "reserved_amount": 1530.62
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001300",
         "claim_id": "CLM-2026-000650",
         "reserve_type": "Expense",
         "initial_amount": 76.53,
-        "reserved_amount": 76.53
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001301",
@@ -9202,14 +9202,14 @@
         "claim_id": "CLM-2026-000658",
         "reserve_type": "Indemnity",
         "initial_amount": 1535.96,
-        "reserved_amount": 1535.96
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001316",
         "claim_id": "CLM-2026-000658",
         "reserve_type": "Expense",
         "initial_amount": 76.8,
-        "reserved_amount": 76.8
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001317",
@@ -9300,14 +9300,14 @@
         "claim_id": "CLM-2026-000665",
         "reserve_type": "Indemnity",
         "initial_amount": 5555.46,
-        "reserved_amount": 5555.46
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001330",
         "claim_id": "CLM-2026-000665",
         "reserve_type": "Expense",
         "initial_amount": 277.77,
-        "reserved_amount": 277.77
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001331",
@@ -9580,14 +9580,14 @@
         "claim_id": "CLM-2026-000685",
         "reserve_type": "Indemnity",
         "initial_amount": 552.04,
-        "reserved_amount": 552.04
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001370",
         "claim_id": "CLM-2026-000685",
         "reserve_type": "Expense",
         "initial_amount": 27.6,
-        "reserved_amount": 27.6
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001371",
@@ -9734,28 +9734,28 @@
         "claim_id": "CLM-2026-000696",
         "reserve_type": "Indemnity",
         "initial_amount": 3015.26,
-        "reserved_amount": 3015.26
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001392",
         "claim_id": "CLM-2026-000696",
         "reserve_type": "Expense",
         "initial_amount": 150.76,
-        "reserved_amount": 150.76
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001393",
         "claim_id": "CLM-2026-000697",
         "reserve_type": "Indemnity",
         "initial_amount": 3827.24,
-        "reserved_amount": 3827.24
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001394",
         "claim_id": "CLM-2026-000697",
         "reserve_type": "Expense",
         "initial_amount": 191.36,
-        "reserved_amount": 191.36
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001395",
@@ -9874,14 +9874,14 @@
         "claim_id": "CLM-2026-000706",
         "reserve_type": "Indemnity",
         "initial_amount": 1805.83,
-        "reserved_amount": 1805.83
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001412",
         "claim_id": "CLM-2026-000706",
         "reserve_type": "Expense",
         "initial_amount": 90.29,
-        "reserved_amount": 90.29
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001413",
@@ -10042,14 +10042,14 @@
         "claim_id": "CLM-2026-000718",
         "reserve_type": "Indemnity",
         "initial_amount": 1228.26,
-        "reserved_amount": 1228.26
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001436",
         "claim_id": "CLM-2026-000718",
         "reserve_type": "Expense",
         "initial_amount": 61.41,
-        "reserved_amount": 61.41
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001437",
@@ -10154,14 +10154,14 @@
         "claim_id": "CLM-2026-000726",
         "reserve_type": "Indemnity",
         "initial_amount": 1571.03,
-        "reserved_amount": 1571.03
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001452",
         "claim_id": "CLM-2026-000726",
         "reserve_type": "Expense",
         "initial_amount": 78.55,
-        "reserved_amount": 78.55
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001453",
@@ -10462,14 +10462,14 @@
         "claim_id": "CLM-2026-000748",
         "reserve_type": "Indemnity",
         "initial_amount": 6091.14,
-        "reserved_amount": 6091.14
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001496",
         "claim_id": "CLM-2026-000748",
         "reserve_type": "Expense",
         "initial_amount": 304.56,
-        "reserved_amount": 304.56
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001497",
@@ -10616,14 +10616,14 @@
         "claim_id": "CLM-2026-000759",
         "reserve_type": "Indemnity",
         "initial_amount": 9652.51,
-        "reserved_amount": 5000
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001518",
         "claim_id": "CLM-2026-000759",
         "reserve_type": "Expense",
         "initial_amount": 482.63,
-        "reserved_amount": 250.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001519",
@@ -10700,14 +10700,14 @@
         "claim_id": "CLM-2026-000765",
         "reserve_type": "Indemnity",
         "initial_amount": 359.94,
-        "reserved_amount": 359.94
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001530",
         "claim_id": "CLM-2026-000765",
         "reserve_type": "Expense",
         "initial_amount": 18.0,
-        "reserved_amount": 18.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001531",
@@ -10770,14 +10770,14 @@
         "claim_id": "CLM-2026-000770",
         "reserve_type": "Indemnity",
         "initial_amount": 5424.36,
-        "reserved_amount": 5424.36
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001540",
         "claim_id": "CLM-2026-000770",
         "reserve_type": "Expense",
         "initial_amount": 271.22,
-        "reserved_amount": 271.22
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001541",
@@ -10924,14 +10924,14 @@
         "claim_id": "CLM-2026-000781",
         "reserve_type": "Indemnity",
         "initial_amount": 4297.56,
-        "reserved_amount": 4297.56
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001562",
         "claim_id": "CLM-2026-000781",
         "reserve_type": "Expense",
         "initial_amount": 214.88,
-        "reserved_amount": 214.88
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001563",
@@ -11120,14 +11120,14 @@
         "claim_id": "CLM-2026-000795",
         "reserve_type": "Indemnity",
         "initial_amount": 3881.37,
-        "reserved_amount": 3881.37
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001590",
         "claim_id": "CLM-2026-000795",
         "reserve_type": "Expense",
         "initial_amount": 194.07,
-        "reserved_amount": 194.07
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001591",
@@ -11162,14 +11162,14 @@
         "claim_id": "CLM-2026-000798",
         "reserve_type": "Indemnity",
         "initial_amount": 7578.1,
-        "reserved_amount": 7578.1
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001596",
         "claim_id": "CLM-2026-000798",
         "reserve_type": "Expense",
         "initial_amount": 378.91,
-        "reserved_amount": 378.91
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001597",
@@ -11456,14 +11456,14 @@
         "claim_id": "CLM-2026-000819",
         "reserve_type": "Indemnity",
         "initial_amount": 6623.12,
-        "reserved_amount": 6623.12
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001638",
         "claim_id": "CLM-2026-000819",
         "reserve_type": "Expense",
         "initial_amount": 331.16,
-        "reserved_amount": 331.16
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001639",
@@ -11652,14 +11652,14 @@
         "claim_id": "CLM-2026-000833",
         "reserve_type": "Indemnity",
         "initial_amount": 4469.71,
-        "reserved_amount": 4469.71
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001666",
         "claim_id": "CLM-2026-000833",
         "reserve_type": "Expense",
         "initial_amount": 223.49,
-        "reserved_amount": 223.49
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001667",
@@ -11708,14 +11708,14 @@
         "claim_id": "CLM-2026-000837",
         "reserve_type": "Indemnity",
         "initial_amount": 7699.27,
-        "reserved_amount": 7699.27
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001674",
         "claim_id": "CLM-2026-000837",
         "reserve_type": "Expense",
         "initial_amount": 384.96,
-        "reserved_amount": 384.96
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001675",
@@ -11834,14 +11834,14 @@
         "claim_id": "CLM-2026-000846",
         "reserve_type": "Indemnity",
         "initial_amount": 11655.94,
-        "reserved_amount": 11655.94
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001692",
         "claim_id": "CLM-2026-000846",
         "reserve_type": "Expense",
         "initial_amount": 582.8,
-        "reserved_amount": 582.8
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001693",
@@ -12310,14 +12310,14 @@
         "claim_id": "CLM-2026-000880",
         "reserve_type": "Indemnity",
         "initial_amount": 4188.02,
-        "reserved_amount": 4188.02
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001760",
         "claim_id": "CLM-2026-000880",
         "reserve_type": "Expense",
         "initial_amount": 209.4,
-        "reserved_amount": 209.4
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001761",
@@ -12366,14 +12366,14 @@
         "claim_id": "CLM-2026-000884",
         "reserve_type": "Indemnity",
         "initial_amount": 3448.81,
-        "reserved_amount": 3448.81
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001768",
         "claim_id": "CLM-2026-000884",
         "reserve_type": "Expense",
         "initial_amount": 172.44,
-        "reserved_amount": 172.44
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001769",
@@ -12492,14 +12492,14 @@
         "claim_id": "CLM-2026-000893",
         "reserve_type": "Indemnity",
         "initial_amount": 9829.04,
-        "reserved_amount": 9829.04
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001786",
         "claim_id": "CLM-2026-000893",
         "reserve_type": "Expense",
         "initial_amount": 491.45,
-        "reserved_amount": 491.45
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001787",
@@ -12688,14 +12688,14 @@
         "claim_id": "CLM-2026-000907",
         "reserve_type": "Indemnity",
         "initial_amount": 7205.23,
-        "reserved_amount": 7205.23
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001814",
         "claim_id": "CLM-2026-000907",
         "reserve_type": "Expense",
         "initial_amount": 360.26,
-        "reserved_amount": 360.26
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001815",
@@ -12786,14 +12786,14 @@
         "claim_id": "CLM-2026-000914",
         "reserve_type": "Indemnity",
         "initial_amount": 119.93,
-        "reserved_amount": 119.93
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001828",
         "claim_id": "CLM-2026-000914",
         "reserve_type": "Expense",
         "initial_amount": 6.0,
-        "reserved_amount": 6.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001829",
@@ -12940,14 +12940,14 @@
         "claim_id": "CLM-2026-000925",
         "reserve_type": "Indemnity",
         "initial_amount": 533.01,
-        "reserved_amount": 533.01
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001850",
         "claim_id": "CLM-2026-000925",
         "reserve_type": "Expense",
         "initial_amount": 26.65,
-        "reserved_amount": 26.65
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001851",
@@ -12982,14 +12982,14 @@
         "claim_id": "CLM-2026-000928",
         "reserve_type": "Indemnity",
         "initial_amount": 2944.54,
-        "reserved_amount": 2944.54
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001856",
         "claim_id": "CLM-2026-000928",
         "reserve_type": "Expense",
         "initial_amount": 147.23,
-        "reserved_amount": 147.23
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001857",
@@ -13108,28 +13108,28 @@
         "claim_id": "CLM-2026-000937",
         "reserve_type": "Indemnity",
         "initial_amount": 1169.58,
-        "reserved_amount": 1169.58
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001874",
         "claim_id": "CLM-2026-000937",
         "reserve_type": "Expense",
         "initial_amount": 58.48,
-        "reserved_amount": 58.48
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001875",
         "claim_id": "CLM-2026-000938",
         "reserve_type": "Indemnity",
         "initial_amount": 5459.57,
-        "reserved_amount": 5459.57
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001876",
         "claim_id": "CLM-2026-000938",
         "reserve_type": "Expense",
         "initial_amount": 272.98,
-        "reserved_amount": 272.98
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001877",
@@ -13178,28 +13178,28 @@
         "claim_id": "CLM-2026-000942",
         "reserve_type": "Indemnity",
         "initial_amount": 3726.12,
-        "reserved_amount": 3726.12
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001884",
         "claim_id": "CLM-2026-000942",
         "reserve_type": "Expense",
         "initial_amount": 186.31,
-        "reserved_amount": 186.31
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001885",
         "claim_id": "CLM-2026-000943",
         "reserve_type": "Indemnity",
         "initial_amount": 1731.89,
-        "reserved_amount": 1731.89
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001886",
         "claim_id": "CLM-2026-000943",
         "reserve_type": "Expense",
         "initial_amount": 86.59,
-        "reserved_amount": 86.59
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001887",
@@ -13220,28 +13220,28 @@
         "claim_id": "CLM-2026-000945",
         "reserve_type": "Indemnity",
         "initial_amount": 9804.37,
-        "reserved_amount": 5000
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001890",
         "claim_id": "CLM-2026-000945",
         "reserve_type": "Expense",
         "initial_amount": 490.22,
-        "reserved_amount": 250.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001891",
         "claim_id": "CLM-2026-000946",
         "reserve_type": "Indemnity",
         "initial_amount": 14075.53,
-        "reserved_amount": 5000
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001892",
         "claim_id": "CLM-2026-000946",
         "reserve_type": "Expense",
         "initial_amount": 703.78,
-        "reserved_amount": 250.0
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001893",
@@ -13374,14 +13374,14 @@
         "claim_id": "CLM-2026-000956",
         "reserve_type": "Indemnity",
         "initial_amount": 5877.55,
-        "reserved_amount": 5877.55
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001912",
         "claim_id": "CLM-2026-000956",
         "reserve_type": "Expense",
         "initial_amount": 293.88,
-        "reserved_amount": 293.88
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001913",
@@ -13878,14 +13878,14 @@
         "claim_id": "CLM-2026-000992",
         "reserve_type": "Indemnity",
         "initial_amount": 2848.24,
-        "reserved_amount": 2848.24
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001984",
         "claim_id": "CLM-2026-000992",
         "reserve_type": "Expense",
         "initial_amount": 142.41,
-        "reserved_amount": 142.41
+        "reserved_amount": 0.0
     },
     {
         "reserve_id": "RES-001985",

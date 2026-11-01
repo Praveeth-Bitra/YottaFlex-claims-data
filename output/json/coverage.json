@@ -3,90 +3,150 @@
         "coverage_id": "COV-000001",
         "product_type": "MOTOR",
         "coverage_name": "Collision",
-        "coverage_limit": 50000
+        "coverage_limit": 50000,
+        "exclusions": [
+            "Intentional Damage",
+            "Mechanical Breakdown"
+        ]
     },
     {
         "coverage_id": "COV-000002",
         "product_type": "MOTOR",
         "coverage_name": "Liability",
-        "coverage_limit": 100000
+        "coverage_limit": 100000,
+        "exclusions": [
+            "Wear and Tear",
+            "Intentional Damage"
+        ]
     },
     {
         "coverage_id": "COV-000003",
         "product_type": "MOTOR",
         "coverage_name": "Comprehensive",
-        "coverage_limit": 40000
+        "coverage_limit": 40000,
+        "exclusions": [
+            "Mechanical Breakdown",
+            "Normal Wear and Tear"
+        ]
     },
     {
         "coverage_id": "COV-000004",
         "product_type": "HEALTH",
         "coverage_name": "Hospitalization",
-        "coverage_limit": 200000
+        "coverage_limit": 200000,
+        "exclusions": [
+            "Cosmetic Treatment",
+            "Experimental Treatment"
+        ]
     },
     {
         "coverage_id": "COV-000005",
         "product_type": "HEALTH",
         "coverage_name": "Outpatient",
-        "coverage_limit": 20000
+        "coverage_limit": 20000,
+        "exclusions": [
+            "Cosmetic Treatment",
+            "Experimental Treatment"
+        ]
     },
     {
         "coverage_id": "COV-000006",
         "product_type": "HEALTH",
         "coverage_name": "Dental",
-        "coverage_limit": 5000
+        "coverage_limit": 5000,
+        "exclusions": [
+            "Cosmetic Treatment",
+            "Experimental Treatment"
+        ]
     },
     {
         "coverage_id": "COV-000007",
         "product_type": "HOME",
         "coverage_name": "Structure",
-        "coverage_limit": 300000
+        "coverage_limit": 300000,
+        "exclusions": [
+            "Normal Wear and Tear",
+            "Intentional Damage"
+        ]
     },
     {
         "coverage_id": "COV-000008",
         "product_type": "HOME",
         "coverage_name": "Contents",
-        "coverage_limit": 50000
+        "coverage_limit": 50000,
+        "exclusions": [
+            "Normal Wear and Tear",
+            "Intentional Damage"
+        ]
     },
     {
         "coverage_id": "COV-000009",
         "product_type": "HOME",
         "coverage_name": "Personal Liability",
-        "coverage_limit": 100000
+        "coverage_limit": 100000,
+        "exclusions": [
+            "Intentional Damage",
+            "Contractual Liability"
+        ]
     },
     {
         "coverage_id": "COV-000010",
         "product_type": "TRAVEL",
         "coverage_name": "Trip Medical",
-        "coverage_limit": 50000
+        "coverage_limit": 50000,
+        "exclusions": [
+            "Pre-existing Condition",
+            "Elective Treatment"
+        ]
     },
     {
         "coverage_id": "COV-000011",
         "product_type": "TRAVEL",
         "coverage_name": "Trip Cancellation",
-        "coverage_limit": 10000
+        "coverage_limit": 10000,
+        "exclusions": [
+            "Voluntary Cancellation",
+            "Known Event"
+        ]
     },
     {
         "coverage_id": "COV-000012",
         "product_type": "TRAVEL",
         "coverage_name": "Baggage Loss",
-        "coverage_limit": 3000
+        "coverage_limit": 3000,
+        "exclusions": [
+            "Unattended Baggage",
+            "Normal Wear and Tear"
+        ]
     },
     {
         "coverage_id": "COV-000013",
         "product_type": "THEFT",
         "coverage_name": "Personal Property",
-        "coverage_limit": 20000
+        "coverage_limit": 20000,
+        "exclusions": [
+            "Unattended Property",
+            "Fraudulent Claim"
+        ]
     },
     {
         "coverage_id": "COV-000014",
         "product_type": "THEFT",
         "coverage_name": "Vehicle Theft",
-        "coverage_limit": 40000
+        "coverage_limit": 40000,
+        "exclusions": [
+            "Keys Left in Vehicle",
+            "Fraudulent Claim"
+        ]
     },
     {
         "coverage_id": "COV-000015",
         "product_type": "THEFT",
         "coverage_name": "Burglary",
-        "coverage_limit": 30000
+        "coverage_limit": 30000,
+        "exclusions": [
+            "Unforced Entry",
+            "Fraudulent Claim"
+        ]
     }
 ]

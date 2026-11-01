@@ -206,8 +206,6 @@ def submit_claim(data):
 
     else:
         print("\nNo settlement generated for this claim.")
-
-    # Keep the new records in memory.
     data["claims"].append(claim)
     data["incidents"].append(incident)
     data["documents"].extend(claim_documents)

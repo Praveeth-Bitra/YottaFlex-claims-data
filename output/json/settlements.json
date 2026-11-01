@@ -1,3052 +1,2114 @@
 [
     {
-        "settlement_id": "SET-CLM-2026-000004-001",
-        "claim_id": "CLM-2026-000004",
-        "approved_amount": 1149.76,
-        "deductible_amount": 250,
-        "payout_amount": 51000,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000007-001",
-        "claim_id": "CLM-2026-000007",
-        "approved_amount": 10143.47,
-        "deductible_amount": 250,
-        "payout_amount": 9893.47,
-        "payment_method": "ACH",
-        "payment_status": "Paid",
-        "settlement_date": "2026-10-31"
-    },
-    {
         "settlement_id": "SET-CLM-2026-000009-001",
         "claim_id": "CLM-2026-000009",
+        "coverage_id": "COV-000001",
         "approved_amount": 3659.21,
-        "deductible_amount": 1000,
-        "payout_amount": 2659.21,
+        "deductible_amount": 1000.0,
+        "payout_amount": 101000,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000010-001",
         "claim_id": "CLM-2026-000010",
-        "approved_amount": 5000,
-        "deductible_amount": 250,
-        "payout_amount": 4750,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "coverage_id": "COV-000005",
+        "approved_amount": 11637.4,
+        "deductible_amount": 250.0,
+        "payout_amount": 11387.4,
+        "payment_method": "Wire Transfer",
+        "payment_status": "Paid",
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000011-001",
         "claim_id": "CLM-2026-000011",
+        "coverage_id": "COV-000012",
         "approved_amount": 582.91,
-        "deductible_amount": 1000,
-        "payout_amount": 0,
+        "deductible_amount": 1000.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000016-001",
-        "claim_id": "CLM-2026-000016",
-        "approved_amount": 10905.93,
-        "deductible_amount": 1000,
-        "payout_amount": 9905.93,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000018-001",
         "claim_id": "CLM-2026-000018",
+        "coverage_id": "COV-000010",
         "approved_amount": 2062.61,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1062.61,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000022-001",
-        "claim_id": "CLM-2026-000022",
-        "approved_amount": 1340.28,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000029-001",
         "claim_id": "CLM-2026-000029",
+        "coverage_id": "COV-000008",
         "approved_amount": 9660.57,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 8660.57,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000031-001",
         "claim_id": "CLM-2026-000031",
+        "coverage_id": "COV-000014",
         "approved_amount": 4177.63,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 3177.63,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000034-001",
-        "claim_id": "CLM-2026-000034",
-        "approved_amount": 5000,
-        "deductible_amount": 2500,
-        "payout_amount": 2500,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000035-001",
         "claim_id": "CLM-2026-000035",
+        "coverage_id": "COV-000014",
         "approved_amount": 2641.08,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 2141.08,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000037-001",
-        "claim_id": "CLM-2026-000037",
-        "approved_amount": 9971.38,
-        "deductible_amount": 1000,
-        "payout_amount": 8971.38,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000041-001",
-        "claim_id": "CLM-2026-000041",
-        "approved_amount": 2702.53,
-        "deductible_amount": 250,
-        "payout_amount": 2452.53,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000050-001",
         "claim_id": "CLM-2026-000050",
+        "coverage_id": "COV-000012",
         "approved_amount": 1948.86,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 948.86,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000052-001",
-        "claim_id": "CLM-2026-000052",
-        "approved_amount": 2288.23,
-        "deductible_amount": 250,
-        "payout_amount": 2038.23,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000053-001",
-        "claim_id": "CLM-2026-000053",
-        "approved_amount": 1223.57,
-        "deductible_amount": 1000,
-        "payout_amount": 223.57,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000057-001",
-        "claim_id": "CLM-2026-000057",
-        "approved_amount": 1900.1,
-        "deductible_amount": 1000,
-        "payout_amount": 900.1,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000059-001",
         "claim_id": "CLM-2026-000059",
+        "coverage_id": "COV-000001",
         "approved_amount": 7082.6,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 6582.6,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000075-001",
         "claim_id": "CLM-2026-000075",
+        "coverage_id": "COV-000014",
         "approved_amount": 1136.16,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 636.16,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000078-001",
         "claim_id": "CLM-2026-000078",
+        "coverage_id": "COV-000010",
         "approved_amount": 1088.69,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000081-001",
-        "claim_id": "CLM-2026-000081",
-        "approved_amount": 1474.94,
-        "deductible_amount": 250,
-        "payout_amount": 1224.94,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000084-001",
         "claim_id": "CLM-2026-000084",
+        "coverage_id": "COV-000003",
         "approved_amount": 5541.73,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 4541.73,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000085-001",
         "claim_id": "CLM-2026-000085",
+        "coverage_id": "COV-000001",
         "approved_amount": 4191.7,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 3691.7,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000090-001",
         "claim_id": "CLM-2026-000090",
+        "coverage_id": "COV-000004",
         "approved_amount": 1533.94,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000097-001",
-        "claim_id": "CLM-2026-000097",
-        "approved_amount": 2480.35,
-        "deductible_amount": 250,
-        "payout_amount": 2230.35,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000103-001",
         "claim_id": "CLM-2026-000103",
+        "coverage_id": "COV-000007",
         "approved_amount": 8467.99,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 7967.99,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000104-001",
-        "claim_id": "CLM-2026-000104",
-        "approved_amount": 1788.37,
-        "deductible_amount": 250,
-        "payout_amount": 1538.37,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000107-001",
-        "claim_id": "CLM-2026-000107",
-        "approved_amount": 2335.1,
-        "deductible_amount": 1000,
-        "payout_amount": 1335.1,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000110-001",
         "claim_id": "CLM-2026-000110",
+        "coverage_id": "COV-000001",
         "approved_amount": 1047.79,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000112-001",
         "claim_id": "CLM-2026-000112",
+        "coverage_id": "COV-000010",
         "approved_amount": 1529.69,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 1279.69,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000114-001",
         "claim_id": "CLM-2026-000114",
+        "coverage_id": "COV-000003",
         "approved_amount": 6532.99,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 5532.99,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000116-001",
         "claim_id": "CLM-2026-000116",
+        "coverage_id": "COV-000005",
         "approved_amount": 7658.68,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 5158.68,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000117-001",
         "claim_id": "CLM-2026-000117",
+        "coverage_id": "COV-000003",
         "approved_amount": 4998.61,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 3998.61,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000119-001",
         "claim_id": "CLM-2026-000119",
+        "coverage_id": "COV-000008",
         "approved_amount": 4906.76,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 4656.76,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000129-001",
-        "claim_id": "CLM-2026-000129",
-        "approved_amount": 4372.73,
-        "deductible_amount": 500,
-        "payout_amount": 3872.73,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000150-001",
-        "claim_id": "CLM-2026-000150",
-        "approved_amount": 2151.78,
-        "deductible_amount": 500,
-        "payout_amount": 1651.78,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000153-001",
-        "claim_id": "CLM-2026-000153",
-        "approved_amount": 2278.56,
-        "deductible_amount": 250,
-        "payout_amount": 2028.56,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000161-001",
-        "claim_id": "CLM-2026-000161",
-        "approved_amount": 3491.74,
-        "deductible_amount": 2500,
-        "payout_amount": 991.74,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000162-001",
-        "claim_id": "CLM-2026-000162",
-        "approved_amount": 4749.58,
-        "deductible_amount": 250,
-        "payout_amount": 4499.58,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000170-001",
         "claim_id": "CLM-2026-000170",
+        "coverage_id": "COV-000014",
         "approved_amount": 2988.28,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 2738.28,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000179-001",
         "claim_id": "CLM-2026-000179",
+        "coverage_id": "COV-000001",
         "approved_amount": 7050.89,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 4550.89,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000182-001",
         "claim_id": "CLM-2026-000182",
+        "coverage_id": "COV-000005",
         "approved_amount": 4093.36,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 3843.36,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000185-001",
-        "claim_id": "CLM-2026-000185",
-        "approved_amount": 4836.94,
-        "deductible_amount": 1000,
-        "payout_amount": 3836.94,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000186-001",
         "claim_id": "CLM-2026-000186",
+        "coverage_id": "COV-000014",
         "approved_amount": 1184.08,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 184.08,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000187-001",
-        "claim_id": "CLM-2026-000187",
-        "approved_amount": 1187.71,
-        "deductible_amount": 1000,
-        "payout_amount": 187.71,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000188-001",
-        "claim_id": "CLM-2026-000188",
-        "approved_amount": 4416.98,
-        "deductible_amount": 500,
-        "payout_amount": 3916.98,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000189-001",
         "claim_id": "CLM-2026-000189",
+        "coverage_id": "COV-000003",
         "approved_amount": 6266.89,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 3766.89,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000190-001",
         "claim_id": "CLM-2026-000190",
+        "coverage_id": "COV-000010",
         "approved_amount": 1308.48,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 308.48,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000191-001",
         "claim_id": "CLM-2026-000191",
+        "coverage_id": "COV-000007",
         "approved_amount": 9390.95,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 9140.95,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000194-001",
         "claim_id": "CLM-2026-000194",
+        "coverage_id": "COV-000007",
         "approved_amount": 9476.21,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 8976.21,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000195-001",
         "claim_id": "CLM-2026-000195",
+        "coverage_id": "COV-000001",
         "approved_amount": 1827.85,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1327.85,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000207-001",
         "claim_id": "CLM-2026-000207",
+        "coverage_id": "COV-000005",
         "approved_amount": 14087.87,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 13837.87,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000208-001",
         "claim_id": "CLM-2026-000208",
+        "coverage_id": "COV-000014",
         "approved_amount": 5404.81,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5154.81,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000210-001",
         "claim_id": "CLM-2026-000210",
+        "coverage_id": "COV-000015",
         "approved_amount": 4083.27,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 1583.27,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000212-001",
-        "claim_id": "CLM-2026-000212",
-        "approved_amount": 459.92,
-        "deductible_amount": 500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000216-001",
         "claim_id": "CLM-2026-000216",
+        "coverage_id": "COV-000004",
         "approved_amount": 4381.42,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 3381.42,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000219-001",
-        "claim_id": "CLM-2026-000219",
-        "approved_amount": 622.49,
-        "deductible_amount": 500,
-        "payout_amount": 122.49,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000229-001",
         "claim_id": "CLM-2026-000229",
+        "coverage_id": "COV-000012",
         "approved_amount": 2206.03,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1706.03,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000236-001",
         "claim_id": "CLM-2026-000236",
+        "coverage_id": "COV-000007",
         "approved_amount": 11080.39,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 10080.39,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000239-001",
-        "claim_id": "CLM-2026-000239",
-        "approved_amount": 3089.79,
-        "deductible_amount": 500,
-        "payout_amount": 2589.79,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000241-001",
         "claim_id": "CLM-2026-000241",
+        "coverage_id": "COV-000013",
         "approved_amount": 1005.88,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 755.88,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000248-001",
-        "claim_id": "CLM-2026-000248",
-        "approved_amount": 13230.93,
-        "deductible_amount": 1000,
-        "payout_amount": 12230.93,
-        "payment_method": "Wire Transfer",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000250-001",
-        "claim_id": "CLM-2026-000250",
-        "approved_amount": 2654.83,
-        "deductible_amount": 250,
-        "payout_amount": 2404.83,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000253-001",
-        "claim_id": "CLM-2026-000253",
-        "approved_amount": 6969.39,
-        "deductible_amount": 1000,
-        "payout_amount": 5969.39,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000256-001",
-        "claim_id": "CLM-2026-000256",
-        "approved_amount": 3370.08,
-        "deductible_amount": 500,
-        "payout_amount": 2870.08,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000259-001",
         "claim_id": "CLM-2026-000259",
+        "coverage_id": "COV-000007",
         "approved_amount": 1027.56,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000260-001",
         "claim_id": "CLM-2026-000260",
+        "coverage_id": "COV-000013",
         "approved_amount": 4864.32,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 3864.32,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000264-001",
         "claim_id": "CLM-2026-000264",
+        "coverage_id": "COV-000004",
         "approved_amount": 14385.07,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 13885.07,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000266-001",
         "claim_id": "CLM-2026-000266",
+        "coverage_id": "COV-000014",
         "approved_amount": 5044.83,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 2544.83,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000267-001",
-        "claim_id": "CLM-2026-000267",
-        "approved_amount": 3989.93,
-        "deductible_amount": 500,
-        "payout_amount": 3489.93,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000274-001",
         "claim_id": "CLM-2026-000274",
+        "coverage_id": "COV-000012",
         "approved_amount": 1363.2,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 863.2,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000279-001",
         "claim_id": "CLM-2026-000279",
+        "coverage_id": "COV-000004",
         "approved_amount": 1847.39,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000281-001",
         "claim_id": "CLM-2026-000281",
+        "coverage_id": "COV-000012",
         "approved_amount": 305.19,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 55.19,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000285-001",
         "claim_id": "CLM-2026-000285",
+        "coverage_id": "COV-000014",
         "approved_amount": 3156.77,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 656.77,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000288-001",
         "claim_id": "CLM-2026-000288",
+        "coverage_id": "COV-000001",
         "approved_amount": 3889.99,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 3389.99,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000289-001",
         "claim_id": "CLM-2026-000289",
+        "coverage_id": "COV-000010",
         "approved_amount": 2250.26,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 2000.26,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000293-001",
-        "claim_id": "CLM-2026-000293",
-        "approved_amount": 1378.59,
-        "deductible_amount": 250,
-        "payout_amount": 1128.59,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000295-001",
         "claim_id": "CLM-2026-000295",
+        "coverage_id": "COV-000001",
         "approved_amount": 5389.68,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5139.68,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000297-001",
-        "claim_id": "CLM-2026-000297",
-        "approved_amount": 1409.63,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000301-001",
         "claim_id": "CLM-2026-000301",
+        "coverage_id": "COV-000012",
         "approved_amount": 1761.07,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1261.07,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000304-001",
-        "claim_id": "CLM-2026-000304",
-        "approved_amount": 2207.89,
-        "deductible_amount": 500,
-        "payout_amount": 1707.89,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000307-001",
-        "claim_id": "CLM-2026-000307",
-        "approved_amount": 7208.09,
-        "deductible_amount": 1000,
-        "payout_amount": 6208.09,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000311-001",
-        "claim_id": "CLM-2026-000311",
-        "approved_amount": 3730.03,
-        "deductible_amount": 250,
-        "payout_amount": 3480.03,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000316-001",
         "claim_id": "CLM-2026-000316",
+        "coverage_id": "COV-000003",
         "approved_amount": 5728.88,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 5228.88,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000320-001",
-        "claim_id": "CLM-2026-000320",
-        "approved_amount": 1187.52,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000337-001",
-        "claim_id": "CLM-2026-000337",
-        "approved_amount": 2206.42,
-        "deductible_amount": 500,
-        "payout_amount": 1706.42,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000339-001",
         "claim_id": "CLM-2026-000339",
+        "coverage_id": "COV-000001",
         "approved_amount": 2701.89,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 201.89,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000342-001",
         "claim_id": "CLM-2026-000342",
+        "coverage_id": "COV-000003",
         "approved_amount": 4169.31,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 3919.31,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000343-001",
         "claim_id": "CLM-2026-000343",
+        "coverage_id": "COV-000010",
         "approved_amount": 1405.09,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 405.09,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000344-001",
         "claim_id": "CLM-2026-000344",
+        "coverage_id": "COV-000005",
         "approved_amount": 7163.97,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 6663.97,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000349-001",
-        "claim_id": "CLM-2026-000349",
-        "approved_amount": 674.95,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000350-001",
         "claim_id": "CLM-2026-000350",
+        "coverage_id": "COV-000011",
         "approved_amount": 2450.63,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 2200.63,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000351-001",
         "claim_id": "CLM-2026-000351",
+        "coverage_id": "COV-000014",
         "approved_amount": 3049.79,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 549.79,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000354-001",
-        "claim_id": "CLM-2026-000354",
-        "approved_amount": 4201.75,
-        "deductible_amount": 250,
-        "payout_amount": 3951.75,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000355-001",
-        "claim_id": "CLM-2026-000355",
-        "approved_amount": 5606.84,
-        "deductible_amount": 1000,
-        "payout_amount": 4606.84,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000358-001",
         "claim_id": "CLM-2026-000358",
+        "coverage_id": "COV-000007",
         "approved_amount": 8580.57,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 8330.57,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000359-001",
         "claim_id": "CLM-2026-000359",
+        "coverage_id": "COV-000011",
         "approved_amount": 1577.52,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 1327.52,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000360-001",
         "claim_id": "CLM-2026-000360",
+        "coverage_id": "COV-000001",
         "approved_amount": 6274.57,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 6024.57,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000361-001",
         "claim_id": "CLM-2026-000361",
+        "coverage_id": "COV-000003",
         "approved_amount": 5627.15,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5377.15,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000363-001",
         "claim_id": "CLM-2026-000363",
+        "coverage_id": "COV-000012",
         "approved_amount": 2128.85,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000364-001",
         "claim_id": "CLM-2026-000364",
+        "coverage_id": "COV-000004",
         "approved_amount": 6771.23,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 4271.23,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000365-001",
         "claim_id": "CLM-2026-000365",
+        "coverage_id": "COV-000010",
         "approved_amount": 413.09,
-        "deductible_amount": 500,
-        "payout_amount": 0,
+        "deductible_amount": 500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000367-001",
         "claim_id": "CLM-2026-000367",
+        "coverage_id": "COV-000015",
         "approved_amount": 776.97,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000369-001",
         "claim_id": "CLM-2026-000369",
+        "coverage_id": "COV-000008",
         "approved_amount": 2964.79,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 2464.79,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000370-001",
-        "claim_id": "CLM-2026-000370",
-        "approved_amount": 1521.96,
-        "deductible_amount": 250,
-        "payout_amount": 1271.96,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000372-001",
-        "claim_id": "CLM-2026-000372",
-        "approved_amount": 1964.42,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000380-001",
-        "claim_id": "CLM-2026-000380",
-        "approved_amount": 734.23,
-        "deductible_amount": 500,
-        "payout_amount": 234.23,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000381-001",
         "claim_id": "CLM-2026-000381",
+        "coverage_id": "COV-000013",
         "approved_amount": 3597.36,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 3097.36,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000382-001",
         "claim_id": "CLM-2026-000382",
+        "coverage_id": "COV-000004",
         "approved_amount": 3133.29,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 633.29,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000386-001",
-        "claim_id": "CLM-2026-000386",
-        "approved_amount": 8489.1,
-        "deductible_amount": 1000,
-        "payout_amount": 7489.1,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000387-001",
         "claim_id": "CLM-2026-000387",
+        "coverage_id": "COV-000008",
         "approved_amount": 8869.68,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 8369.68,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000388-001",
         "claim_id": "CLM-2026-000388",
+        "coverage_id": "COV-000004",
         "approved_amount": 8209.98,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 7709.98,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000392-001",
-        "claim_id": "CLM-2026-000392",
-        "approved_amount": 3892.33,
-        "deductible_amount": 2500,
-        "payout_amount": 1392.33,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000393-001",
-        "claim_id": "CLM-2026-000393",
-        "approved_amount": 1364.28,
-        "deductible_amount": 500,
-        "payout_amount": 864.28,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000394-001",
         "claim_id": "CLM-2026-000394",
+        "coverage_id": "COV-000012",
         "approved_amount": 2001.96,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1001.96,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000396-001",
-        "claim_id": "CLM-2026-000396",
-        "approved_amount": 1346.03,
-        "deductible_amount": 500,
-        "payout_amount": 846.03,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000398-001",
         "claim_id": "CLM-2026-000398",
+        "coverage_id": "COV-000011",
         "approved_amount": 2095.3,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1095.3,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000404-001",
-        "claim_id": "CLM-2026-000404",
-        "approved_amount": 7051.26,
-        "deductible_amount": 1000,
-        "payout_amount": 6051.26,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000406-001",
-        "claim_id": "CLM-2026-000406",
-        "approved_amount": 10982.56,
-        "deductible_amount": 1000,
-        "payout_amount": 9982.56,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000409-001",
-        "claim_id": "CLM-2026-000409",
-        "approved_amount": 5000,
-        "deductible_amount": 2500,
-        "payout_amount": 2500,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000411-001",
         "claim_id": "CLM-2026-000411",
+        "coverage_id": "COV-000010",
         "approved_amount": 2218.72,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000412-001",
         "claim_id": "CLM-2026-000412",
+        "coverage_id": "COV-000005",
         "approved_amount": 10192.88,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 9192.88,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000414-001",
-        "claim_id": "CLM-2026-000414",
-        "approved_amount": 5493.36,
-        "deductible_amount": 500,
-        "payout_amount": 4993.36,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000415-001",
-        "claim_id": "CLM-2026-000415",
-        "approved_amount": 963.51,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000418-001",
-        "claim_id": "CLM-2026-000418",
-        "approved_amount": 5415.18,
-        "deductible_amount": 1000,
-        "payout_amount": 4415.18,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000419-001",
         "claim_id": "CLM-2026-000419",
+        "coverage_id": "COV-000001",
         "approved_amount": 361.62,
-        "deductible_amount": 500,
-        "payout_amount": 0,
+        "deductible_amount": 500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000421-001",
         "claim_id": "CLM-2026-000421",
+        "coverage_id": "COV-000004",
         "approved_amount": 12042.1,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 9542.1,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000424-001",
         "claim_id": "CLM-2026-000424",
+        "coverage_id": "COV-000001",
         "approved_amount": 561.52,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 311.52,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000427-001",
-        "claim_id": "CLM-2026-000427",
-        "approved_amount": 780.24,
-        "deductible_amount": 500,
-        "payout_amount": 280.24,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000429-001",
         "claim_id": "CLM-2026-000429",
+        "coverage_id": "COV-000007",
         "approved_amount": 9685.42,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 9185.42,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000434-001",
         "claim_id": "CLM-2026-000434",
+        "coverage_id": "COV-000015",
         "approved_amount": 4518.07,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 3518.07,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000440-001",
         "claim_id": "CLM-2026-000440",
+        "coverage_id": "COV-000011",
         "approved_amount": 2104.85,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1104.85,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000444-001",
         "claim_id": "CLM-2026-000444",
+        "coverage_id": "COV-000011",
         "approved_amount": 332.77,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 82.77,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000447-001",
         "claim_id": "CLM-2026-000447",
+        "coverage_id": "COV-000003",
         "approved_amount": 5026.32,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 4526.32,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000449-001",
         "claim_id": "CLM-2026-000449",
+        "coverage_id": "COV-000001",
         "approved_amount": 3444.94,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 3194.94,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000451-001",
-        "claim_id": "CLM-2026-000451",
-        "approved_amount": 1738.06,
-        "deductible_amount": 1000,
-        "payout_amount": 738.06,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000455-001",
-        "claim_id": "CLM-2026-000455",
-        "approved_amount": 1288.74,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000456-001",
-        "claim_id": "CLM-2026-000456",
-        "approved_amount": 6152.09,
-        "deductible_amount": 1000,
-        "payout_amount": 5152.09,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000466-001",
         "claim_id": "CLM-2026-000466",
+        "coverage_id": "COV-000007",
         "approved_amount": 2850.96,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1850.96,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000471-001",
         "claim_id": "CLM-2026-000471",
+        "coverage_id": "COV-000010",
         "approved_amount": 686.96,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000474-001",
-        "claim_id": "CLM-2026-000474",
-        "approved_amount": 2052.51,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000475-001",
-        "claim_id": "CLM-2026-000475",
-        "approved_amount": 3108.39,
-        "deductible_amount": 250,
-        "payout_amount": 2858.39,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000476-001",
         "claim_id": "CLM-2026-000476",
+        "coverage_id": "COV-000008",
         "approved_amount": 2283.73,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1783.73,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000481-001",
-        "claim_id": "CLM-2026-000481",
-        "approved_amount": 1897.49,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000486-001",
         "claim_id": "CLM-2026-000486",
+        "coverage_id": "COV-000005",
         "approved_amount": 5857.02,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 3357.02,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000487-001",
         "claim_id": "CLM-2026-000487",
+        "coverage_id": "COV-000001",
         "approved_amount": 6241.57,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5991.57,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000488-001",
         "claim_id": "CLM-2026-000488",
+        "coverage_id": "COV-000015",
         "approved_amount": 5254.35,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5004.35,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000489-001",
         "claim_id": "CLM-2026-000489",
+        "coverage_id": "COV-000007",
         "approved_amount": 10992.75,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 8492.75,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000490-001",
-        "claim_id": "CLM-2026-000490",
-        "approved_amount": 5000,
-        "deductible_amount": 500,
-        "payout_amount": 4500,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000495-001",
-        "claim_id": "CLM-2026-000495",
-        "approved_amount": 6709.08,
-        "deductible_amount": 2500,
-        "payout_amount": 4209.08,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000502-001",
         "claim_id": "CLM-2026-000502",
+        "coverage_id": "COV-000015",
         "approved_amount": 1770.52,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1270.52,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000503-001",
         "claim_id": "CLM-2026-000503",
+        "coverage_id": "COV-000013",
         "approved_amount": 1074.79,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 824.79,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000505-001",
         "claim_id": "CLM-2026-000505",
+        "coverage_id": "COV-000015",
         "approved_amount": 5587.23,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 4587.23,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000515-001",
         "claim_id": "CLM-2026-000515",
+        "coverage_id": "COV-000007",
         "approved_amount": 2051.48,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 1801.48,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000517-001",
-        "claim_id": "CLM-2026-000517",
-        "approved_amount": 2495.92,
-        "deductible_amount": 500,
-        "payout_amount": 1995.92,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000520-001",
         "claim_id": "CLM-2026-000520",
+        "coverage_id": "COV-000001",
         "approved_amount": 3051.48,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 551.48,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000521-001",
         "claim_id": "CLM-2026-000521",
+        "coverage_id": "COV-000012",
         "approved_amount": 791.41,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 541.41,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000522-001",
-        "claim_id": "CLM-2026-000522",
-        "approved_amount": 8775.01,
-        "deductible_amount": 2500,
-        "payout_amount": 6275.01,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000525-001",
         "claim_id": "CLM-2026-000525",
+        "coverage_id": "COV-000004",
         "approved_amount": 793.9,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000527-001",
-        "claim_id": "CLM-2026-000527",
-        "approved_amount": 1990.43,
-        "deductible_amount": 1000,
-        "payout_amount": 990.43,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000528-001",
-        "claim_id": "CLM-2026-000528",
-        "approved_amount": 5590.22,
-        "deductible_amount": 500,
-        "payout_amount": 5090.22,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000530-001",
         "claim_id": "CLM-2026-000530",
+        "coverage_id": "COV-000007",
         "approved_amount": 6101.28,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5851.28,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000532-001",
         "claim_id": "CLM-2026-000532",
+        "coverage_id": "COV-000004",
         "approved_amount": 2879.95,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 379.95,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000533-001",
         "claim_id": "CLM-2026-000533",
+        "coverage_id": "COV-000012",
         "approved_amount": 2306.56,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000534-001",
         "claim_id": "CLM-2026-000534",
+        "coverage_id": "COV-000007",
         "approved_amount": 6475.28,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 3975.28,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000535-001",
         "claim_id": "CLM-2026-000535",
+        "coverage_id": "COV-000015",
         "approved_amount": 3893.11,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 1393.11,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000538-001",
         "claim_id": "CLM-2026-000538",
+        "coverage_id": "COV-000010",
         "approved_amount": 1872.74,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1372.74,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000539-001",
         "claim_id": "CLM-2026-000539",
+        "coverage_id": "COV-000003",
         "approved_amount": 5265.82,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 4765.82,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000540-001",
         "claim_id": "CLM-2026-000540",
+        "coverage_id": "COV-000001",
         "approved_amount": 4936.98,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 2436.98,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000541-001",
-        "claim_id": "CLM-2026-000541",
-        "approved_amount": 419.41,
-        "deductible_amount": 250,
-        "payout_amount": 169.41,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000542-001",
-        "claim_id": "CLM-2026-000542",
-        "approved_amount": 3715.71,
-        "deductible_amount": 2500,
-        "payout_amount": 1215.71,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000543-001",
         "claim_id": "CLM-2026-000543",
+        "coverage_id": "COV-000015",
         "approved_amount": 2527.0,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 2027.0,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000550-001",
-        "claim_id": "CLM-2026-000550",
-        "approved_amount": 4826.89,
-        "deductible_amount": 250,
-        "payout_amount": 4576.89,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000553-001",
         "claim_id": "CLM-2026-000553",
+        "coverage_id": "COV-000004",
         "approved_amount": 14663.17,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 12163.17,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000555-001",
-        "claim_id": "CLM-2026-000555",
-        "approved_amount": 8328.94,
-        "deductible_amount": 500,
-        "payout_amount": 7828.94,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000561-001",
         "claim_id": "CLM-2026-000561",
+        "coverage_id": "COV-000015",
         "approved_amount": 5874.93,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 5374.93,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000566-001",
-        "claim_id": "CLM-2026-000566",
-        "approved_amount": 6064.24,
-        "deductible_amount": 250,
-        "payout_amount": 5814.24,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000571-001",
         "claim_id": "CLM-2026-000571",
+        "coverage_id": "COV-000004",
         "approved_amount": 13440.32,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 12440.32,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000573-001",
-        "claim_id": "CLM-2026-000573",
-        "approved_amount": 269.87,
-        "deductible_amount": 500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000577-001",
         "claim_id": "CLM-2026-000577",
+        "coverage_id": "COV-000015",
         "approved_amount": 260.54,
-        "deductible_amount": 500,
-        "payout_amount": 0,
+        "deductible_amount": 500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000578-001",
         "claim_id": "CLM-2026-000578",
-        "approved_amount": 5000,
-        "deductible_amount": 500,
-        "payout_amount": 4500,
-        "payment_method": "ACH",
+        "coverage_id": "COV-000005",
+        "approved_amount": 11460.92,
+        "deductible_amount": 500.0,
+        "payout_amount": 10960.92,
+        "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000581-001",
-        "claim_id": "CLM-2026-000581",
-        "approved_amount": 3448.52,
-        "deductible_amount": 500,
-        "payout_amount": 2948.52,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000585-001",
         "claim_id": "CLM-2026-000585",
+        "coverage_id": "COV-000001",
         "approved_amount": 1393.22,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 893.22,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000587-001",
-        "claim_id": "CLM-2026-000587",
-        "approved_amount": 9718.75,
-        "deductible_amount": 2500,
-        "payout_amount": 7218.75,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000591-001",
         "claim_id": "CLM-2026-000591",
+        "coverage_id": "COV-000001",
         "approved_amount": 415.17,
-        "deductible_amount": 500,
-        "payout_amount": 0,
+        "deductible_amount": 500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000592-001",
-        "claim_id": "CLM-2026-000592",
-        "approved_amount": 3379.78,
-        "deductible_amount": 1000,
-        "payout_amount": 2379.78,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000599-001",
-        "claim_id": "CLM-2026-000599",
-        "approved_amount": 507.68,
-        "deductible_amount": 250,
-        "payout_amount": 257.68,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000604-001",
         "claim_id": "CLM-2026-000604",
+        "coverage_id": "COV-000012",
         "approved_amount": 809.18,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000608-001",
-        "claim_id": "CLM-2026-000608",
-        "approved_amount": 11629.04,
-        "deductible_amount": 250,
-        "payout_amount": 11379.04,
-        "payment_method": "Wire Transfer",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000610-001",
         "claim_id": "CLM-2026-000610",
-        "approved_amount": 5000,
-        "deductible_amount": 250,
-        "payout_amount": 4750,
+        "coverage_id": "COV-000005",
+        "approved_amount": 6321.85,
+        "deductible_amount": 250.0,
+        "payout_amount": 6071.85,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000617-001",
         "claim_id": "CLM-2026-000617",
+        "coverage_id": "COV-000007",
         "approved_amount": 5766.99,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 4766.99,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000621-001",
         "claim_id": "CLM-2026-000621",
+        "coverage_id": "COV-000001",
         "approved_amount": 7325.81,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 6825.81,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000624-001",
         "claim_id": "CLM-2026-000624",
+        "coverage_id": "COV-000001",
         "approved_amount": 954.82,
-        "deductible_amount": 1000,
-        "payout_amount": 0,
+        "deductible_amount": 1000.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000637-001",
         "claim_id": "CLM-2026-000637",
+        "coverage_id": "COV-000004",
         "approved_amount": 6222.43,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 5722.43,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000641-001",
         "claim_id": "CLM-2026-000641",
+        "coverage_id": "COV-000008",
         "approved_amount": 638.96,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 388.96,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000645-001",
         "claim_id": "CLM-2026-000645",
+        "coverage_id": "COV-000010",
         "approved_amount": 59.45,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000649-001",
-        "claim_id": "CLM-2026-000649",
-        "approved_amount": 3954.42,
-        "deductible_amount": 250,
-        "payout_amount": 3704.42,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000650-001",
-        "claim_id": "CLM-2026-000650",
-        "approved_amount": 1530.62,
-        "deductible_amount": 250,
-        "payout_amount": 1280.62,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000654-001",
         "claim_id": "CLM-2026-000654",
+        "coverage_id": "COV-000011",
         "approved_amount": 87.39,
-        "deductible_amount": 1000,
-        "payout_amount": 0,
+        "deductible_amount": 1000.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000655-001",
         "claim_id": "CLM-2026-000655",
+        "coverage_id": "COV-000001",
         "approved_amount": 690.12,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 190.12,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000658-001",
-        "claim_id": "CLM-2026-000658",
-        "approved_amount": 1535.96,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000662-001",
         "claim_id": "CLM-2026-000662",
+        "coverage_id": "COV-000007",
         "approved_amount": 10601.63,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 10351.63,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000665-001",
-        "claim_id": "CLM-2026-000665",
-        "approved_amount": 5555.46,
-        "deductible_amount": 2500,
-        "payout_amount": 3055.46,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000672-001",
         "claim_id": "CLM-2026-000672",
+        "coverage_id": "COV-000003",
         "approved_amount": 5520.94,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 4520.94,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000685-001",
-        "claim_id": "CLM-2026-000685",
-        "approved_amount": 552.04,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000696-001",
-        "claim_id": "CLM-2026-000696",
-        "approved_amount": 3015.26,
-        "deductible_amount": 500,
-        "payout_amount": 2515.26,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000697-001",
-        "claim_id": "CLM-2026-000697",
-        "approved_amount": 3827.24,
-        "deductible_amount": 2500,
-        "payout_amount": 1327.24,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000699-001",
         "claim_id": "CLM-2026-000699",
+        "coverage_id": "COV-000007",
         "approved_amount": 2749.45,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 2499.45,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000706-001",
-        "claim_id": "CLM-2026-000706",
-        "approved_amount": 1805.83,
-        "deductible_amount": 250,
-        "payout_amount": 1555.83,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000708-001",
         "claim_id": "CLM-2026-000708",
+        "coverage_id": "COV-000012",
         "approved_amount": 1103.8,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 103.8,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000715-001",
         "claim_id": "CLM-2026-000715",
+        "coverage_id": "COV-000004",
         "approved_amount": 14509.65,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 14259.65,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000717-001",
         "claim_id": "CLM-2026-000717",
+        "coverage_id": "COV-000014",
         "approved_amount": 5565.92,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5315.92,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000718-001",
-        "claim_id": "CLM-2026-000718",
-        "approved_amount": 1228.26,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000719-001",
         "claim_id": "CLM-2026-000719",
+        "coverage_id": "COV-000001",
         "approved_amount": 419.91,
-        "deductible_amount": 500,
-        "payout_amount": 0,
+        "deductible_amount": 500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000723-001",
         "claim_id": "CLM-2026-000723",
+        "coverage_id": "COV-000014",
         "approved_amount": 1685.9,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1185.9,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000726-001",
-        "claim_id": "CLM-2026-000726",
-        "approved_amount": 1571.03,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000727-001",
         "claim_id": "CLM-2026-000727",
+        "coverage_id": "COV-000013",
         "approved_amount": 1247.14,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 247.14,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000730-001",
         "claim_id": "CLM-2026-000730",
+        "coverage_id": "COV-000007",
         "approved_amount": 2458.43,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1458.43,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000736-001",
         "claim_id": "CLM-2026-000736",
+        "coverage_id": "COV-000008",
         "approved_amount": 2593.25,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 2093.25,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000738-001",
         "claim_id": "CLM-2026-000738",
+        "coverage_id": "COV-000012",
         "approved_amount": 2106.94,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1106.94,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000748-001",
-        "claim_id": "CLM-2026-000748",
-        "approved_amount": 6091.14,
-        "deductible_amount": 500,
-        "payout_amount": 5591.14,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000750-001",
         "claim_id": "CLM-2026-000750",
+        "coverage_id": "COV-000013",
         "approved_amount": 2512.78,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 12.78,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000751-001",
         "claim_id": "CLM-2026-000751",
+        "coverage_id": "COV-000013",
         "approved_amount": 2284.58,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1784.58,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000753-001",
         "claim_id": "CLM-2026-000753",
+        "coverage_id": "COV-000008",
         "approved_amount": 7859.89,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 7359.89,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000757-001",
         "claim_id": "CLM-2026-000757",
+        "coverage_id": "COV-000003",
         "approved_amount": 4737.35,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 2237.35,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000759-001",
-        "claim_id": "CLM-2026-000759",
-        "approved_amount": 5000,
-        "deductible_amount": 2500,
-        "payout_amount": 2500,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000760-001",
         "claim_id": "CLM-2026-000760",
+        "coverage_id": "COV-000013",
         "approved_amount": 3880.98,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 3630.98,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000765-001",
-        "claim_id": "CLM-2026-000765",
-        "approved_amount": 359.94,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000770-001",
-        "claim_id": "CLM-2026-000770",
-        "approved_amount": 5424.36,
-        "deductible_amount": 2500,
-        "payout_amount": 2924.36,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000772-001",
         "claim_id": "CLM-2026-000772",
+        "coverage_id": "COV-000007",
         "approved_amount": 3435.32,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 3185.32,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000775-001",
         "claim_id": "CLM-2026-000775",
+        "coverage_id": "COV-000004",
         "approved_amount": 12322.53,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 12072.53,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000776-001",
         "claim_id": "CLM-2026-000776",
+        "coverage_id": "COV-000004",
         "approved_amount": 2227.09,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1727.09,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000777-001",
         "claim_id": "CLM-2026-000777",
+        "coverage_id": "COV-000012",
         "approved_amount": 2416.26,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1916.26,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000781-001",
-        "claim_id": "CLM-2026-000781",
-        "approved_amount": 4297.56,
-        "deductible_amount": 2500,
-        "payout_amount": 1797.56,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000785-001",
         "claim_id": "CLM-2026-000785",
+        "coverage_id": "COV-000004",
         "approved_amount": 14163.51,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 13663.51,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000795-001",
-        "claim_id": "CLM-2026-000795",
-        "approved_amount": 3881.37,
-        "deductible_amount": 1000,
-        "payout_amount": 2881.37,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000798-001",
-        "claim_id": "CLM-2026-000798",
-        "approved_amount": 7578.1,
-        "deductible_amount": 500,
-        "payout_amount": 7078.1,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000800-001",
         "claim_id": "CLM-2026-000800",
+        "coverage_id": "COV-000005",
         "approved_amount": 12658.33,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 10158.33,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000803-001",
         "claim_id": "CLM-2026-000803",
+        "coverage_id": "COV-000001",
         "approved_amount": 1143.58,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000804-001",
         "claim_id": "CLM-2026-000804",
+        "coverage_id": "COV-000012",
         "approved_amount": 2074.18,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000807-001",
         "claim_id": "CLM-2026-000807",
+        "coverage_id": "COV-000001",
         "approved_amount": 7578.95,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 5078.95,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000808-001",
         "claim_id": "CLM-2026-000808",
+        "coverage_id": "COV-000014",
         "approved_amount": 3156.16,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 656.16,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000811-001",
         "claim_id": "CLM-2026-000811",
+        "coverage_id": "COV-000005",
         "approved_amount": 8424.12,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 5924.12,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000812-001",
         "claim_id": "CLM-2026-000812",
+        "coverage_id": "COV-000008",
         "approved_amount": 1190.73,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 690.73,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000819-001",
-        "claim_id": "CLM-2026-000819",
-        "approved_amount": 6623.12,
-        "deductible_amount": 500,
-        "payout_amount": 6123.12,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000833-001",
-        "claim_id": "CLM-2026-000833",
-        "approved_amount": 4469.71,
-        "deductible_amount": 1000,
-        "payout_amount": 3469.71,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000835-001",
         "claim_id": "CLM-2026-000835",
+        "coverage_id": "COV-000013",
         "approved_amount": 603.01,
-        "deductible_amount": 1000,
-        "payout_amount": 0,
+        "deductible_amount": 1000.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000837-001",
-        "claim_id": "CLM-2026-000837",
-        "approved_amount": 7699.27,
-        "deductible_amount": 500,
-        "payout_amount": 7199.27,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000841-001",
         "claim_id": "CLM-2026-000841",
+        "coverage_id": "COV-000008",
         "approved_amount": 1653.53,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 653.53,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000842-001",
         "claim_id": "CLM-2026-000842",
+        "coverage_id": "COV-000003",
         "approved_amount": 6372.28,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 6122.28,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000843-001",
         "claim_id": "CLM-2026-000843",
+        "coverage_id": "COV-000003",
         "approved_amount": 5849.66,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 5349.66,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000846-001",
-        "claim_id": "CLM-2026-000846",
-        "approved_amount": 11655.94,
-        "deductible_amount": 1000,
-        "payout_amount": 10655.94,
-        "payment_method": "Wire Transfer",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000854-001",
         "claim_id": "CLM-2026-000854",
+        "coverage_id": "COV-000013",
         "approved_amount": 4439.83,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 3439.83,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000858-001",
         "claim_id": "CLM-2026-000858",
+        "coverage_id": "COV-000010",
         "approved_amount": 1137.27,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 887.27,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000861-001",
         "claim_id": "CLM-2026-000861",
+        "coverage_id": "COV-000007",
         "approved_amount": 4537.44,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 4037.44,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000862-001",
         "claim_id": "CLM-2026-000862",
+        "coverage_id": "COV-000011",
         "approved_amount": 2152.83,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 1152.83,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000863-001",
         "claim_id": "CLM-2026-000863",
+        "coverage_id": "COV-000004",
         "approved_amount": 12892.82,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 10392.82,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000864-001",
         "claim_id": "CLM-2026-000864",
+        "coverage_id": "COV-000007",
         "approved_amount": 7731.11,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 7231.11,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000865-001",
         "claim_id": "CLM-2026-000865",
+        "coverage_id": "COV-000001",
         "approved_amount": 4693.57,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 4193.57,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000867-001",
         "claim_id": "CLM-2026-000867",
+        "coverage_id": "COV-000008",
         "approved_amount": 10647.63,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 10147.63,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000870-001",
         "claim_id": "CLM-2026-000870",
+        "coverage_id": "COV-000001",
         "approved_amount": 5596.89,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 3096.89,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000877-001",
         "claim_id": "CLM-2026-000877",
+        "coverage_id": "COV-000012",
         "approved_amount": 2453.64,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 2203.64,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000880-001",
-        "claim_id": "CLM-2026-000880",
-        "approved_amount": 4188.02,
-        "deductible_amount": 1000,
-        "payout_amount": 3188.02,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000881-001",
         "claim_id": "CLM-2026-000881",
+        "coverage_id": "COV-000001",
         "approved_amount": 3779.52,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 2779.52,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000884-001",
-        "claim_id": "CLM-2026-000884",
-        "approved_amount": 3448.81,
-        "deductible_amount": 1000,
-        "payout_amount": 2448.81,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000890-001",
         "claim_id": "CLM-2026-000890",
+        "coverage_id": "COV-000004",
         "approved_amount": 12951.83,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 12451.83,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000893-001",
-        "claim_id": "CLM-2026-000893",
-        "approved_amount": 9829.04,
-        "deductible_amount": 2500,
-        "payout_amount": 7329.04,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000906-001",
         "claim_id": "CLM-2026-000906",
+        "coverage_id": "COV-000008",
         "approved_amount": 5581.93,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 5331.93,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000907-001",
-        "claim_id": "CLM-2026-000907",
-        "approved_amount": 7205.23,
-        "deductible_amount": 250,
-        "payout_amount": 6955.23,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000908-001",
         "claim_id": "CLM-2026-000908",
+        "coverage_id": "COV-000001",
         "approved_amount": 6597.35,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 5597.35,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000914-001",
-        "claim_id": "CLM-2026-000914",
-        "approved_amount": 119.93,
-        "deductible_amount": 250,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000925-001",
-        "claim_id": "CLM-2026-000925",
-        "approved_amount": 533.01,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000926-001",
         "claim_id": "CLM-2026-000926",
+        "coverage_id": "COV-000004",
         "approved_amount": 11983.67,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 10983.67,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000928-001",
-        "claim_id": "CLM-2026-000928",
-        "approved_amount": 2944.54,
-        "deductible_amount": 250,
-        "payout_amount": 2694.54,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000933-001",
         "claim_id": "CLM-2026-000933",
+        "coverage_id": "COV-000004",
         "approved_amount": 11109.38,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 10859.38,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000934-001",
         "claim_id": "CLM-2026-000934",
+        "coverage_id": "COV-000013",
         "approved_amount": 3273.0,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 2273.0,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000935-001",
         "claim_id": "CLM-2026-000935",
+        "coverage_id": "COV-000003",
         "approved_amount": 4155.81,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 3905.81,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000937-001",
-        "claim_id": "CLM-2026-000937",
-        "approved_amount": 1169.58,
-        "deductible_amount": 1000,
-        "payout_amount": 169.58,
-        "payment_method": "Check",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000938-001",
-        "claim_id": "CLM-2026-000938",
-        "approved_amount": 5459.57,
-        "deductible_amount": 2500,
-        "payout_amount": 2959.57,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000942-001",
-        "claim_id": "CLM-2026-000942",
-        "approved_amount": 3726.12,
-        "deductible_amount": 250,
-        "payout_amount": 3476.12,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000943-001",
-        "claim_id": "CLM-2026-000943",
-        "approved_amount": 1731.89,
-        "deductible_amount": 500,
-        "payout_amount": 1231.89,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000945-001",
-        "claim_id": "CLM-2026-000945",
-        "approved_amount": 5000,
-        "deductible_amount": 500,
-        "payout_amount": 4500,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000946-001",
-        "claim_id": "CLM-2026-000946",
-        "approved_amount": 5000,
-        "deductible_amount": 500,
-        "payout_amount": 4500,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000947-001",
         "claim_id": "CLM-2026-000947",
+        "coverage_id": "COV-000004",
         "approved_amount": 7471.46,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 6971.46,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000948-001",
         "claim_id": "CLM-2026-000948",
+        "coverage_id": "COV-000015",
         "approved_amount": 521.87,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000950-001",
         "claim_id": "CLM-2026-000950",
+        "coverage_id": "COV-000014",
         "approved_amount": 5349.62,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 4849.62,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000951-001",
         "claim_id": "CLM-2026-000951",
+        "coverage_id": "COV-000007",
         "approved_amount": 3564.64,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 2564.64,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000952-001",
         "claim_id": "CLM-2026-000952",
+        "coverage_id": "COV-000012",
         "approved_amount": 1183.6,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000956-001",
-        "claim_id": "CLM-2026-000956",
-        "approved_amount": 5877.55,
-        "deductible_amount": 2500,
-        "payout_amount": 3377.55,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000964-001",
         "claim_id": "CLM-2026-000964",
+        "coverage_id": "COV-000003",
         "approved_amount": 7303.08,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 4803.08,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000965-001",
         "claim_id": "CLM-2026-000965",
+        "coverage_id": "COV-000007",
         "approved_amount": 7982.28,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 5482.28,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000969-001",
         "claim_id": "CLM-2026-000969",
+        "coverage_id": "COV-000008",
         "approved_amount": 5597.26,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 5097.26,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000971-001",
         "claim_id": "CLM-2026-000971",
+        "coverage_id": "COV-000001",
         "approved_amount": 6544.33,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 5544.33,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000973-001",
         "claim_id": "CLM-2026-000973",
+        "coverage_id": "COV-000012",
         "approved_amount": 1471.3,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 971.3,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000974-001",
         "claim_id": "CLM-2026-000974",
+        "coverage_id": "COV-000012",
         "approved_amount": 2074.61,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 1574.61,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000975-001",
         "claim_id": "CLM-2026-000975",
+        "coverage_id": "COV-000003",
         "approved_amount": 2170.86,
-        "deductible_amount": 2500,
-        "payout_amount": 0,
+        "deductible_amount": 2500.0,
+        "payout_amount": 0.0,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000979-001",
         "claim_id": "CLM-2026-000979",
+        "coverage_id": "COV-000014",
         "approved_amount": 3765.43,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 2765.43,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000980-001",
         "claim_id": "CLM-2026-000980",
+        "coverage_id": "COV-000007",
         "approved_amount": 2349.1,
-        "deductible_amount": 250,
+        "deductible_amount": 250.0,
         "payout_amount": 2099.1,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000982-001",
         "claim_id": "CLM-2026-000982",
+        "coverage_id": "COV-000007",
         "approved_amount": 11703.96,
-        "deductible_amount": 1000,
+        "deductible_amount": 1000.0,
         "payout_amount": 10703.96,
         "payment_method": "Wire Transfer",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000988-001",
         "claim_id": "CLM-2026-000988",
+        "coverage_id": "COV-000005",
         "approved_amount": 9342.93,
-        "deductible_amount": 500,
+        "deductible_amount": 500.0,
         "payout_amount": 8842.93,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-000990-001",
         "claim_id": "CLM-2026-000990",
+        "coverage_id": "COV-000014",
         "approved_amount": 2517.72,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 17.72,
         "payment_method": "Check",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
-    },
-    {
-        "settlement_id": "SET-CLM-2026-000992-001",
-        "claim_id": "CLM-2026-000992",
-        "approved_amount": 2848.24,
-        "deductible_amount": 500,
-        "payout_amount": 2348.24,
-        "payment_method": "ACH",
-        "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
         "settlement_id": "SET-CLM-2026-001000-001",
         "claim_id": "CLM-2026-001000",
+        "coverage_id": "COV-000004",
         "approved_amount": 6329.8,
-        "deductible_amount": 2500,
+        "deductible_amount": 2500.0,
         "payout_amount": 3829.8,
         "payment_method": "ACH",
         "payment_status": "Pending",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     },
     {
-        "settlement_id": "SET-CLM-2026-000007-002",
-        "claim_id": "CLM-2026-000007",
-        "approved_amount": 10143.47,
-        "deductible_amount": 250,
-        "payout_amount": 9893.47,
-        "payment_method": "ACH",
+        "settlement_id": "SET-CLM-2026-000010-002",
+        "claim_id": "CLM-2026-000010",
+        "coverage_id": "COV-000005",
+        "approved_amount": 11637.4,
+        "deductible_amount": 250.0,
+        "payout_amount": 11387.4,
+        "payment_method": "Wire Transfer",
         "payment_status": "Paid",
-        "settlement_date": "2026-10-31"
+        "settlement_date": "2026-11-01"
     }
 ]

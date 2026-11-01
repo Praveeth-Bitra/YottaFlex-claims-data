@@ -1,11 +1,7 @@
 # Business Rules
 
-## 1. Project Overview
-
+*** 1. Project Overview ***
 The project generates synthetic insurance data and simulates an end-to-end claims processing workflow.
-
-The workflow includes:
-
 1. Customer and policy creation.
 2. Claim intake.
 3. Policy and coverage validation.
@@ -16,10 +12,7 @@ The workflow includes:
 8. Settlement recommendation.
 9. Exception identification and audit history.
 
-All business outcomes must be calculated from documented rules, not independently randomized.
-
-## 2. Global Configuration
-
+*** 2. Configuration ***
 - Python version: 3.11.
 - Random seed: 20261022.
 - Use one shared random.Random(seed) instance.
@@ -32,11 +25,9 @@ All business outcomes must be calculated from documented rules, not independentl
 - Baseline claims: 1,000.
 - Claim types: Motor, Health, Home, Travel and Theft.
 
-Dataset size must be configurable using the same generator.
+*** 3. ID Conventions ***
 
-## 3. ID Conventions
-
-Use deterministic counters and immutable IDs.
+Use counters and immutable IDs.
 
 | Entity | ID Format |
 |---|---|
@@ -53,27 +44,18 @@ Use deterministic counters and immutable IDs.
 | Reserve | RES-000001 |
 | Settlement | SET-CLM-2026-000001-001 |
 | ClaimEvent | EVT-000001 |
-
-Counters start at 1 and use six-digit zero padding where shown.
-
 Policy product names in IDs are MOTOR, HEALTH, HOME, TRAVEL and THEFT.
 
-## 4. Customer Generation
-
+*** 4. Customer Generation ***
 - Generate 1,200 synthetic customers.
 - Each customer receives a unique ID.
 - Use fixed lists of first names, last names, cities and states.
 - Generate synthetic email addresses using the customer ID.
 - Country is always USA.
 - Date of birth must represent an age between 18 and 80 on the reference date.
-- Optional phone numbers and address line 2 may be blank.
 
-No real personal information is used.
-
-## 5. Coverage Catalog
-
+*** 5. Coverage Catalog ***
 Create three coverages for each policy type.
-
 | Policy Type | Coverage | Maximum Limit |
 |---|---|---:|
 | Motor | Collision | 50,000 |
@@ -92,16 +74,8 @@ Create three coverages for each policy type.
 | Theft | Vehicle Theft | 40,000 |
 | Theft | Burglary | 30,000 |
 
-Each policy receives one to three compatible coverages.
-
-A PolicyCoverage record stores the policy-specific limit and deductible.
-
-The policy coverage limit is the highest limit among its linked coverages.
-
-## 6. Policy Generation
-
+*** 6. Policy Generation ***
 Generate 2,000 policies.
-
 Policy type distribution:
 
 | Policy Type | Policies |
@@ -134,12 +108,8 @@ Premium ranges:
 | Travel | 40–400 |
 | Theft | 100–600 |
 
-Allowed deductibles: 250, 500, 1,000 and 2,500 USD.
-
-## 7. Policy Exclusions
-
+*** 7. Policy Exclusions ***
 Use simple, documented exclusions.
-
 | Policy Type | Example Exclusion |
 |---|---|
 | Motor | Routine maintenance and intentional damage |
@@ -148,20 +118,11 @@ Use simple, documented exclusions.
 | Travel | Voluntary trip cancellation without a covered reason |
 | Theft | Unattended property without reasonable security |
 
-An excluded incident must be flagged during assessment.
-
-These exclusions are simplified synthetic rules, not actual insurance contract terms.
-
-## 8. Claim Generation
-
+*** 8. Claim Generation ***
 Generate 1,000 claims across the five claim types.
-
 Every claim must reference an existing customer and policy.
-
 A policy may have no more than two claims in the clean baseline.
-
 Claim amounts are generated using these ranges:
-
 | Claim Type | Claimed Amount |
 |---|---:|
 | Motor | 150–8,000 |
@@ -170,29 +131,14 @@ Claim amounts are generated using these ranges:
 | Travel | 30–2,500 |
 | Theft | 100–6,000 |
 
-Each claim contains one to four claim items.
-
-The claim amount equals the sum of its claim item amounts.
-
-Claim type must match policy type.
-
-## 9. Incident Validation
-
-Every claim has one associated incident.
-
-Rules:
-
+*** 9. Incident Validation ***
 - Incident date must normally be on or after policy effective date.
 - Incident date must be on or before policy expiration date.
 - Incident date must be on or before cancellation date for a cancelled policy.
 - Reported date must be on or after incident date.
 
-Incidents outside the policy coverage period must be identified.
-
-## 10. Required Documents
-
+*** 10. Required Documents ***
 Use these required document types:
-
 | Claim Type | Required Document |
 |---|---|
 | Motor | Repair Estimate |
@@ -201,18 +147,8 @@ Use these required document types:
 | Travel | Receipt |
 | Theft | Police Report |
 
-Additional documents may be generated.
-
-A missing required document must create a Missing Document exception.
-
-A claim with missing mandatory evidence cannot be approved until the required document is supplied and verified.
-
-## 11. Adjuster Assignment
-
+*** 11. Adjuster Assignment ***
 Generate 40 adjusters.
-
-Specialization distribution:
-
 - 6 Motor.
 - 6 Health.
 - 6 Home.
@@ -220,16 +156,8 @@ Specialization distribution:
 - 6 Theft.
 - 10 General.
 
-Exactly four adjusters are inactive.
-
-Only active adjusters may receive claims.
-
-The assigned adjuster must specialize in the claim type or have General specialization.
-
-## 12. Claim Assessment Logic
-
+*** 12. Claim Assessment Logic ***
 Evaluate claims in this order:
-
 1. Check whether the policy exists.
 2. Check whether the policy was valid on the incident date.
 3. Check whether the policy was cancelled before the incident.
@@ -250,29 +178,20 @@ Decision outcomes:
 | Claim amount exceeds applicable coverage limit | Partially Approved |
 | All checks pass | Approved |
 
-A claim must include a decision reason.
-
-### Approval Calculations
-
+*** Approval Calculations ***
 Approved:
-
 approved_amount = claimed_amount
 
 Partially Approved:
-
 approved_amount = applicable coverage limit
 
-However, approved_amount cannot exceed claimed_amount.
-
 Rejected:
-
 approved_amount = 0
 
 Pending Information:
-
 approved_amount remains blank until assessment is completed.
 
-## 13. Reserve Calculation
+*** 13. Reserve Calculation ***
 
 Generate two reserve records per claim:
 
@@ -288,14 +207,7 @@ Rules:
 - Rejected claims have zero remaining indemnity reserve.
 - Reserve updates must be traceable.
 
-## 14. Settlement Calculation
-
-Generate settlement recommendations only for approved or partially approved claims.
-
-Formula:
-
-payout_amount = max(0, approved_amount - deductible_amount)
-
+*** 14. Settlement Calculation ***
 Rules:
 
 - Payout cannot exceed the applicable coverage limit.
@@ -312,10 +224,7 @@ Payment methods:
 | 1,000–9,999.99 | ACH |
 | 10,000 and above | Wire Transfer |
 
-## 15. Claim Lifecycle and Events
-
-Record important processing actions as ClaimEvent records.
-
+*** 15. Claim Lifecycle and Events ***
 Event types:
 
 - Claim Submitted.
@@ -330,18 +239,10 @@ Event types:
 - Settlement Paid.
 - Claim Closed.
 
-Events must have timestamps in chronological order.
-
-Previous events must not be overwritten.
-
-Each decision must have an explanation.
-
-## 16. Required Negative Scenarios
+*** 16. Required Negative Scenarios ***
 
 Generate valid baseline records first.
-
 Then inject six labelled negative scenarios:
-
 | Scenario | Expected Detection |
 |---|---|
 | Claim date before policy start | Invalid incident date |
@@ -351,14 +252,8 @@ Then inject six labelled negative scenarios:
 | Missing mandatory document | Missing document exception |
 | Claim paid twice | Duplicate payment exception |
 
-Each injected case must be recorded in ground_truth.
-
-Negative scenarios must be clearly distinguishable from valid baseline data.
-
-## 17. Ground Truth
-
+*** 17. Ground Truth ***
 Generate separate ground_truth.csv and ground_truth.json.
-
 Each record should include:
 
 - Record ID.
@@ -370,10 +265,7 @@ Each record should include:
 - Expected outcome.
 - Expected reason.
 
-Ground truth must not be included in the normal input data.
-
-## 18. Validation
-
+*** 18. Validation ***
 Implement checks for:
 
 1. Primary key uniqueness.
@@ -392,10 +284,7 @@ Implement checks for:
 14. Duplicate payments.
 15. Ground-truth consistency.
 
-The validation report must show passed and failed checks.
-
-## 19. Reproducibility
-
+*** 19. Reproducibility ***
 - Use seed 20261022.
 - Use one shared random generator.
 - Generate records in a consistent order.
@@ -403,8 +292,7 @@ The validation report must show passed and failed checks.
 - Generate SHA-256 checksums.
 - Running twice with the same configuration must produce identical output files.
 
-## 20. Export Requirements
-
+*** 20. Export Requirements ***
 Generate:
 
 - CSV files for each entity.
@@ -414,8 +302,7 @@ Generate:
 - Validation summary.
 - Reproducibility checksum report.
 
-## 21. Implementation Principles
-
+*** 21. Implementation Principles ***
 - Use simple Python functions.
 - Use lists and dictionaries.
 - Avoid classes and unnecessary frameworks.
@@ -425,9 +312,3 @@ Generate:
 - Do not randomly assign calculated outcomes.
 - Document assumptions and decision reasons.
 - Keep the solution easy to explain.
-
-## 22. Assumptions
-
-Numerical ranges, exclusions, required document mappings and processing rules in this document are implementation assumptions created to complete the assignment where exact values were not supplied.
-
-They are simplified synthetic business rules and do not represent real insurance contracts or regulatory requirements.

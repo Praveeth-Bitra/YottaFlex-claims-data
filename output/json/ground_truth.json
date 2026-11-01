@@ -30,27 +30,27 @@
         "expected_reason": "Two incident records refer to the same claim."
     },
     {
-        "record_id": "SET-CLM-2026-000004-001",
-        "table_name": "Settlement",
-        "issue_type": "Settlement Exceeds Limit",
-        "affected_field": "payout_amount",
-        "original_value": 899.76,
-        "injected_value": 51000,
-        "expected_outcome": "Invalid Settlement",
-        "expected_reason": "Settlement exceeds the coverage limit."
-    },
-    {
-        "record_id": "CLM-2026-000005",
+        "record_id": "CLM-2026-000004",
         "table_name": "Document",
         "issue_type": "Missing Mandatory Document",
         "affected_field": "document_type",
-        "original_value": 4,
+        "original_value": 2,
         "injected_value": 0,
         "expected_outcome": "Pending Information",
         "expected_reason": "Mandatory claim evidence is missing."
     },
     {
-        "record_id": "SET-CLM-2026-000007-002",
+        "record_id": "SET-CLM-2026-000009-001",
+        "table_name": "Settlement",
+        "issue_type": "Settlement Exceeds Limit",
+        "affected_field": "payout_amount",
+        "original_value": 2659.21,
+        "injected_value": 101000,
+        "expected_outcome": "Invalid Settlement",
+        "expected_reason": "Settlement exceeds the coverage limit."
+    },
+    {
+        "record_id": "SET-CLM-2026-000010-002",
         "table_name": "Settlement",
         "issue_type": "Claim Paid Twice",
         "affected_field": "claim_id",

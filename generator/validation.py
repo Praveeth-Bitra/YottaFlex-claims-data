@@ -194,8 +194,7 @@ def run_validation(data):
     )
 
     results["policy_dates"] = check_policy_dates(data["policies"])
-
-    # Intentional anomaly checks
+    
     results["anomaly_incident_before_policy_start"] = (
         check_incident_before_policy_start(data)
     )

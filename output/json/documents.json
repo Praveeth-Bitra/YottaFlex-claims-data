@@ -63,18 +63,32 @@
         "status": "Verified"
     },
     {
-        "document_id": "DOC-CLM-2026-000004-001",
-        "claim_id": "CLM-2026-000004",
+        "document_id": "DOC-CLM-2026-000005-001",
+        "claim_id": "CLM-2026-000005",
         "document_type": "Travel Receipt",
         "is_mandatory": true,
+        "status": "Received"
+    },
+    {
+        "document_id": "DOC-CLM-2026-000005-002",
+        "claim_id": "CLM-2026-000005",
+        "document_type": "Identity Proof",
+        "is_mandatory": false,
         "status": "Verified"
     },
     {
-        "document_id": "DOC-CLM-2026-000004-002",
-        "claim_id": "CLM-2026-000004",
-        "document_type": "Supporting Photograph",
+        "document_id": "DOC-CLM-2026-000005-003",
+        "claim_id": "CLM-2026-000005",
+        "document_type": "Incident Report",
         "is_mandatory": false,
-        "status": "Received"
+        "status": "Pending Verification"
+    },
+    {
+        "document_id": "DOC-CLM-2026-000005-004",
+        "claim_id": "CLM-2026-000005",
+        "document_type": "Additional Invoice",
+        "is_mandatory": false,
+        "status": "Pending Verification"
     },
     {
         "document_id": "DOC-CLM-2026-000006-001",

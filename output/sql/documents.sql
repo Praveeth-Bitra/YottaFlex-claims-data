@@ -7,8 +7,10 @@ INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, statu
 INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000003-001', 'CLM-2026-000003', 'Repair Estimate', TRUE, 'Received');
 INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000003-002', 'CLM-2026-000003', 'Supporting Photograph', FALSE, 'Pending Verification');
 INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000003-003', 'CLM-2026-000003', 'Additional Invoice', FALSE, 'Verified');
-INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000004-001', 'CLM-2026-000004', 'Travel Receipt', TRUE, 'Verified');
-INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000004-002', 'CLM-2026-000004', 'Supporting Photograph', FALSE, 'Received');
+INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000005-001', 'CLM-2026-000005', 'Travel Receipt', TRUE, 'Received');
+INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000005-002', 'CLM-2026-000005', 'Identity Proof', FALSE, 'Verified');
+INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000005-003', 'CLM-2026-000005', 'Incident Report', FALSE, 'Pending Verification');
+INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000005-004', 'CLM-2026-000005', 'Additional Invoice', FALSE, 'Pending Verification');
 INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000006-001', 'CLM-2026-000006', 'Medical Bill', TRUE, 'Received');
 INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000006-002', 'CLM-2026-000006', 'Additional Invoice', FALSE, 'Pending Verification');
 INSERT INTO documents (document_id, claim_id, document_type, is_mandatory, status) VALUES ('DOC-CLM-2026-000007-001', 'CLM-2026-000007', 'Property Damage Photo', TRUE, 'Verified');
